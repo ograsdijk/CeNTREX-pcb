@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:clock_buffer-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,9 +26,9 @@ F 3 "~" H 5250 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5550 3850 2    50   Input ~ 0
-VCC
-Text GLabel 5550 4150 2    50   Input ~ 0
 D3.3V
+Text GLabel 5550 4150 2    50   Input ~ 0
+VCC
 Text GLabel 5550 4450 2    50   Input ~ 0
 Master_clock
 $Comp
@@ -64,7 +64,7 @@ F 3 "" H 3750 4800 50  0001 C CNN
 	1    3750 4800
 	-1   0    0    1   
 $EndComp
-Text GLabel 4150 3150 2    50   Input ~ 0
+Text GLabel 4150 3250 2    50   Input ~ 0
 Master_clock
 Text GLabel 3950 5000 2    50   Input ~ 0
 Clock_input
@@ -107,7 +107,7 @@ U 1 1 5D4B5E79
 P 5850 3050
 F 0 "C1" H 5965 3096 50  0000 L CNN
 F 1 "10muF" H 5965 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5888 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 2900 50  0001 C CNN
 F 3 "~" H 5850 3050 50  0001 C CNN
 	1    5850 3050
 	1    0    0    -1  
@@ -118,20 +118,9 @@ U 1 1 5D4B5F13
 P 6450 3050
 F 0 "C2" H 6565 3096 50  0000 L CNN
 F 1 "1muF" H 6565 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 6488 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 2900 50  0001 C CNN
 F 3 "~" H 6450 3050 50  0001 C CNN
 	1    6450 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5D4B5F45
-P 6900 3050
-F 0 "C3" H 7015 3096 50  0000 L CNN
-F 1 "0.1muF" H 7015 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 6938 2900 50  0001 C CNN
-F 3 "~" H 6900 3050 50  0001 C CNN
-	1    6900 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -166,11 +155,8 @@ $EndComp
 Connection ~ 6450 2900
 Wire Wire Line
 	6450 2900 6300 2900
-Connection ~ 6450 3200
 Wire Wire Line
 	6450 2900 6900 2900
-Wire Wire Line
-	6450 3200 6900 3200
 Wire Wire Line
 	6000 2900 5850 2900
 Wire Wire Line
@@ -178,4 +164,40 @@ Wire Wire Line
 Connection ~ 5850 2900
 Text GLabel 6900 2900 2    50   Input ~ 0
 VD
+Connection ~ 6450 3200
+Wire Wire Line
+	6450 3200 6900 3200
+$Comp
+L Device:C C3
+U 1 1 5D4B5F45
+P 6900 3050
+F 0 "C3" H 7015 3096 50  0000 L CNN
+F 1 "0.1muF" H 7015 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6938 2900 50  0001 C CNN
+F 3 "~" H 6900 3050 50  0001 C CNN
+	1    6900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D662126
+P 2950 3600
+F 0 "C?" H 3065 3646 50  0000 L CNN
+F 1 "0.1muF" H 3065 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2988 3450 50  0001 C CNN
+F 3 "~" H 2950 3600 50  0001 C CNN
+	1    2950 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D6622F2
+P 2950 3750
+F 0 "#PWR?" H 2950 3500 50  0001 C CNN
+F 1 "GND" H 2955 3577 50  0000 C CNN
+F 2 "" H 2950 3750 50  0001 C CNN
+F 3 "" H 2950 3750 50  0001 C CNN
+	1    2950 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
