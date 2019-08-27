@@ -64,7 +64,7 @@ F 3 "" H 3750 4800 50  0001 C CNN
 	1    3750 4800
 	-1   0    0    1   
 $EndComp
-Text GLabel 4150 3250 2    50   Input ~ 0
+Text GLabel 4750 3250 2    50   Input ~ 0
 Master_clock
 Text GLabel 3950 5000 2    50   Input ~ 0
 Clock_input
@@ -173,7 +173,7 @@ U 1 1 5D4B5F45
 P 6900 3050
 F 0 "C3" H 7015 3096 50  0000 L CNN
 F 1 "0.1muF" H 7015 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6938 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 2900 50  0001 C CNN
 F 3 "~" H 6900 3050 50  0001 C CNN
 	1    6900 3050
 	1    0    0    -1  
@@ -199,5 +199,32 @@ F 2 "" H 2950 3750 50  0001 C CNN
 F 3 "" H 2950 3750 50  0001 C CNN
 	1    2950 3750
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3250 4500 3250
+$Comp
+L Device:R R1
+U 1 1 5D659320
+P 4500 3100
+F 0 "R1" H 4570 3146 50  0000 L CNN
+F 1 "50Ohm" H 4570 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3100 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 3250
+Wire Wire Line
+	4500 3250 4750 3250
+$Comp
+L power:GND #PWR0106
+U 1 1 5D6598F2
+P 4500 2950
+F 0 "#PWR0106" H 4500 2700 50  0001 C CNN
+F 1 "GND" H 4505 2777 50  0000 C CNN
+F 2 "" H 4500 2950 50  0001 C CNN
+F 3 "" H 4500 2950 50  0001 C CNN
+	1    4500 2950
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
