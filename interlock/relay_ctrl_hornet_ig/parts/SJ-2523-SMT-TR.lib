@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SJ-2523-SMT-TR
+#
+DEF SJ-2523-SMT-TR J 0 40 Y N 1 L N
+F0 "J" -300 320 50 H V L BNN
+F1 "SJ-2523-SMT-TR" -300 -380 50 H V L BNN
+F2 "CUI_SJ-2523-SMT-TR" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "2.5 mm, Stereo, Right Angle, Surface Mount _SMT_, Audio Jack Connector" 0 0 50 H I L BNN
+F6 "CUI Inc." 0 0 50 H I L BNN
+F7 "https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/sj-252x-smt-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" 0 0 50 H I L BNN
+F8 "SJ-2523-SMT-TR" 0 0 50 H I L BNN
+F9 "Unavailable" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 300 -300 300 -200 N
+P 2 0 0 10 300 -200 300 100 N
+P 2 0 0 10 300 100 300 200 N
+P 2 0 0 10 300 200 300 300 N
+P 2 0 0 10 300 300 -300 300 N
+P 2 0 0 10 -300 300 -300 -300 N
+P 2 0 0 10 -300 -300 300 -300 N
+P 2 0 0 6 300 100 -25 100 N
+P 2 0 0 6 -25 100 -63 50 N
+P 2 0 0 6 -63 50 -100 100 N
+P 2 0 0 6 300 -200 5 -200 N
+P 2 0 0 6 5 -200 -33 -150 N
+P 2 0 0 6 -33 -150 -70 -200 N
+P 2 0 0 6 300 200 -200 200 N
+P 2 0 0 6 -200 200 -200 0 N
+P 2 0 0 6 -250 0 -200 0 N
+P 2 0 0 6 -200 0 -150 0 N
+P 2 0 0 6 -150 0 -150 -200 N
+P 2 0 0 6 -150 -200 -250 -200 N
+P 2 0 0 6 -250 -200 -250 0 N
+X 2 2 500 -200 200 L 40 40 0 0 P 
+X 3 3 500 100 200 L 40 40 0 0 P 
+X 1 1 500 200 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

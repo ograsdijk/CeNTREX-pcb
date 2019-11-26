@@ -1,0 +1,224 @@
+EESchema Schematic File Version 4
+LIBS:clock_buffer-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J2
+U 1 1 5D4B3594
+P 5250 4150
+F 0 "J2" H 5300 4667 50  0000 C CNN
+F 1 "Conn_02x07_Counter_Clockwise" H 5300 4576 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5250 4150 50  0001 C CNN
+F 3 "~" H 5250 4150 50  0001 C CNN
+	1    5250 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 3850 2    50   Input ~ 0
+D3.3V
+Text GLabel 5550 4150 2    50   Input ~ 0
+VCC
+Text GLabel 5550 4450 2    50   Input ~ 0
+Master_clock
+$Comp
+L power:GND #PWR0101
+U 1 1 5D4B3600
+P 5050 4450
+F 0 "#PWR0101" H 5050 4200 50  0001 C CNN
+F 1 "GND" V 5055 4322 50  0000 R CNN
+F 2 "" H 5050 4450 50  0001 C CNN
+F 3 "" H 5050 4450 50  0001 C CNN
+	1    5050 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5D4B36B5
+P 3750 5000
+F 0 "J1" H 3850 4884 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3850 4975 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 3750 5000 50  0001 C CNN
+F 3 " ~" H 3750 5000 50  0001 C CNN
+	1    3750 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D4B3718
+P 3750 4800
+F 0 "#PWR0102" H 3750 4550 50  0001 C CNN
+F 1 "GND" H 3755 4627 50  0000 C CNN
+F 2 "" H 3750 4800 50  0001 C CNN
+F 3 "" H 3750 4800 50  0001 C CNN
+	1    3750 4800
+	-1   0    0    1   
+$EndComp
+Text GLabel 3950 5000 2    50   Input ~ 0
+Clock_input
+$Comp
+L Device:C C1
+U 1 1 5D4B5E79
+P 5850 3050
+F 0 "C1" H 5965 3096 50  0000 L CNN
+F 1 "10u" H 5965 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 2900 50  0001 C CNN
+F 3 "~" H 5850 3050 50  0001 C CNN
+	1    5850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D4B5F13
+P 6450 3050
+F 0 "C2" H 6565 3096 50  0000 L CNN
+F 1 "1u" H 6565 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 2900 50  0001 C CNN
+F 3 "~" H 6450 3050 50  0001 C CNN
+	1    6450 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3200 5850 3200
+Connection ~ 5850 3200
+Wire Wire Line
+	5850 2900 5700 2900
+$Comp
+L power:GND #PWR0104
+U 1 1 5D4B605E
+P 5700 3200
+F 0 "#PWR0104" H 5700 2950 50  0001 C CNN
+F 1 "GND" H 5705 3027 50  0000 C CNN
+F 2 "" H 5700 3200 50  0001 C CNN
+F 3 "" H 5700 3200 50  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 2900 0    50   Input ~ 0
+VCC
+$Comp
+L Device:L_Core_Ferrite L1
+U 1 1 5D4B6730
+P 6150 2900
+F 0 "L1" V 6350 2900 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 6250 2900 50  0000 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 6150 2900 50  0001 C CNN
+F 3 "~" H 6150 2900 50  0001 C CNN
+	1    6150 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6450 2900
+Wire Wire Line
+	6450 2900 6300 2900
+Wire Wire Line
+	6450 2900 6900 2900
+Wire Wire Line
+	6000 2900 5850 2900
+Wire Wire Line
+	5850 3200 6450 3200
+Connection ~ 5850 2900
+Text GLabel 6900 2900 2    50   Input ~ 0
+VD
+Connection ~ 6450 3200
+Wire Wire Line
+	6450 3200 6900 3200
+$Comp
+L Device:C C3
+U 1 1 5D4B5F45
+P 6900 3050
+F 0 "C3" H 7015 3096 50  0000 L CNN
+F 1 "0.1u" H 7015 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 2900 50  0001 C CNN
+F 3 "~" H 6900 3050 50  0001 C CNN
+	1    6900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74LV1T34DBVR:SN74LV1T34DBVR U?
+U 1 1 5D94D95B
+P 3350 3400
+F 0 "U?" H 3350 3867 50  0000 C CNN
+F 1 "SN74LV1T34DBVR" H 3350 3776 50  0000 C CNN
+F 2 "SOT95P280X145-5N" H 3350 3400 50  0001 L BNN
+F 3 "SOT-23 Texas Instruments" H 3350 3400 50  0001 L BNN
+F 4 "SN74LV1T34DBVR" H 3350 3400 50  0001 L BNN "Field4"
+F 5 "Single Power Supply BUFFER Logic Level Shifter _no enable_ 5-SOT-23 -40 to 125" H 3350 3400 50  0001 L BNN "Field5"
+F 6 "Texas Instruments" H 3350 3400 50  0001 L BNN "Field6"
+F 7 "None" H 3350 3400 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 3350 3400 50  0001 L BNN "Field8"
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2950 3400 0    50   Input ~ 0
+Clock_input
+Text GLabel 3750 3400 2    50   Input ~ 0
+Master_clock
+Text GLabel 3750 3200 2    50   Input ~ 0
+VD
+$Comp
+L power:GND #PWR?
+U 1 1 5D94F379
+P 3750 3600
+F 0 "#PWR?" H 3750 3350 50  0001 C CNN
+F 1 "GND" H 3755 3427 50  0000 C CNN
+F 2 "" H 3750 3600 50  0001 C CNN
+F 3 "" H 3750 3600 50  0001 C CNN
+	1    3750 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D950F54
+P 2950 3550
+F 0 "R?" H 3020 3596 50  0000 L CNN
+F 1 "R" H 3020 3505 50  0000 L CNN
+F 2 "" V 2880 3550 50  0001 C CNN
+F 3 "~" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D9516F8
+P 2950 3250
+F 0 "R?" H 3020 3296 50  0000 L CNN
+F 1 "R" H 3020 3205 50  0000 L CNN
+F 2 "" V 2880 3250 50  0001 C CNN
+F 3 "~" H 2950 3250 50  0001 C CNN
+	1    2950 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5D952034
+P 2950 3700
+F 0 "#PWR?" H 2950 3450 50  0001 C CNN
+F 1 "GND" H 2955 3527 50  0000 C CNN
+F 2 "" H 2950 3700 50  0001 C CNN
+F 3 "" H 2950 3700 50  0001 C CNN
+	1    2950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9525A6
+P 2950 3100
+F 0 "#PWR?" H 2950 2850 50  0001 C CNN
+F 1 "GND" H 2955 2927 50  0000 C CNN
+F 2 "" H 2950 3100 50  0001 C CNN
+F 3 "" H 2950 3100 50  0001 C CNN
+	1    2950 3100
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

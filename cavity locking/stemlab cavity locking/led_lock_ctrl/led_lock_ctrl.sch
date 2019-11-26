@@ -1,0 +1,412 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Analog_Switch:MAX333A U1
+U 2 1 5D8133F4
+P 5950 2400
+F 0 "U1" H 5950 2642 50  0000 C CNN
+F 1 "MAX333A" H 5950 2551 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 5950 2400 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf" H 5950 2400 50  0001 C CNN
+	2    5950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_Switch:MAX333A U1
+U 3 1 5D8170E9
+P 5950 3750
+F 0 "U1" H 5950 3992 50  0000 C CNN
+F 1 "MAX333A" H 5950 3901 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 5950 3750 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf" H 5950 3750 50  0001 C CNN
+	3    5950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_Switch:MAX333A U1
+U 1 1 5D81BD3F
+P 5950 1050
+F 0 "U1" H 5950 1292 50  0000 C CNN
+F 1 "MAX333A" H 5950 1201 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 5950 1050 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf" H 5950 1050 50  0001 C CNN
+	1    5950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D824163
+P 2600 1800
+F 0 "#PWR0101" H 2600 1550 50  0001 C CNN
+F 1 "GND" V 2605 1672 50  0000 R CNN
+F 2 "" H 2600 1800 50  0001 C CNN
+F 3 "" H 2600 1800 50  0001 C CNN
+	1    2600 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D824687
+P 3700 1600
+F 0 "#PWR0102" H 3700 1350 50  0001 C CNN
+F 1 "GND" V 3705 1472 50  0000 R CNN
+F 2 "" H 3700 1600 50  0001 C CNN
+F 3 "" H 3700 1600 50  0001 C CNN
+	1    3700 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 1500 3700 1600
+$Comp
+L Device:R R1
+U 1 1 5D83261F
+P 5500 1150
+F 0 "R1" V 5293 1150 50  0000 C CNN
+F 1 "R" V 5384 1150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5430 1150 50  0001 C CNN
+F 3 "~" H 5500 1150 50  0001 C CNN
+	1    5500 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D83AF7C
+P 5950 1600
+F 0 "R4" V 5743 1600 50  0000 C CNN
+F 1 "R" V 5834 1600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5880 1600 50  0001 C CNN
+F 3 "~" H 5950 1600 50  0001 C CNN
+	1    5950 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5D83C263
+P 5350 1150
+F 0 "#PWR0103" H 5350 1000 50  0001 C CNN
+F 1 "+5V" V 5365 1278 50  0000 L CNN
+F 2 "" H 5350 1150 50  0001 C CNN
+F 3 "" H 5350 1150 50  0001 C CNN
+	1    5350 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D83C8D3
+P 5950 1750
+F 0 "#PWR0104" H 5950 1500 50  0001 C CNN
+F 1 "GND" H 5955 1577 50  0000 C CNN
+F 2 "" H 5950 1750 50  0001 C CNN
+F 3 "" H 5950 1750 50  0001 C CNN
+	1    5950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J3
+U 1 1 5D83E70D
+P 2400 3300
+F 0 "J3" H 2480 3342 50  0000 L CNN
+F 1 "Conn_01x09" H 2480 3251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 2400 3300 50  0001 C CNN
+F 3 "~" H 2400 3300 50  0001 C CNN
+	1    2400 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5D840A9A
+P 2600 1900
+F 0 "#PWR0106" H 2600 1750 50  0001 C CNN
+F 1 "+5V" V 2615 2028 50  0000 L CNN
+F 2 "" H 2600 1900 50  0001 C CNN
+F 3 "" H 2600 1900 50  0001 C CNN
+	1    2600 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5D845911
+P 2400 2400
+F 0 "J2" H 2318 2075 50  0000 C CNN
+F 1 "Conn_01x03" H 2318 2166 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 2400 50  0001 C CNN
+F 3 "~" H 2400 2400 50  0001 C CNN
+	1    2400 2400
+	-1   0    0    1   
+$EndComp
+Text GLabel 2600 2300 2    50   Input ~ 0
+locking
+Text GLabel 2600 2400 2    50   Input ~ 0
+auto_relock
+Text GLabel 2600 2500 2    50   Input ~ 0
+locked
+$Comp
+L Device:R R2
+U 1 1 5D868B2D
+P 5500 2500
+F 0 "R2" V 5293 2500 50  0000 C CNN
+F 1 "R" V 5384 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5430 2500 50  0001 C CNN
+F 3 "~" H 5500 2500 50  0001 C CNN
+	1    5500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5D868B33
+P 5350 2500
+F 0 "#PWR0107" H 5350 2350 50  0001 C CNN
+F 1 "+5V" V 5365 2628 50  0000 L CNN
+F 2 "" H 5350 2500 50  0001 C CNN
+F 3 "" H 5350 2500 50  0001 C CNN
+	1    5350 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D868D6D
+P 5500 3850
+F 0 "R3" V 5293 3850 50  0000 C CNN
+F 1 "R" V 5384 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5430 3850 50  0001 C CNN
+F 3 "~" H 5500 3850 50  0001 C CNN
+	1    5500 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5D868D73
+P 5350 3850
+F 0 "#PWR0108" H 5350 3700 50  0001 C CNN
+F 1 "+5V" V 5365 3978 50  0000 L CNN
+F 2 "" H 5350 3850 50  0001 C CNN
+F 3 "" H 5350 3850 50  0001 C CNN
+	1    5350 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D86BB58
+P 5950 2950
+F 0 "R5" V 5743 2950 50  0000 C CNN
+F 1 "R" V 5834 2950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5880 2950 50  0001 C CNN
+F 3 "~" H 5950 2950 50  0001 C CNN
+	1    5950 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5D86BB5E
+P 5950 3100
+F 0 "#PWR0109" H 5950 2850 50  0001 C CNN
+F 1 "GND" H 5955 2927 50  0000 C CNN
+F 2 "" H 5950 3100 50  0001 C CNN
+F 3 "" H 5950 3100 50  0001 C CNN
+	1    5950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D86C0C2
+P 5950 4300
+F 0 "R6" V 5743 4300 50  0000 C CNN
+F 1 "R" V 5834 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5880 4300 50  0001 C CNN
+F 3 "~" H 5950 4300 50  0001 C CNN
+	1    5950 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5D86C0C8
+P 5950 4450
+F 0 "#PWR0110" H 5950 4200 50  0001 C CNN
+F 1 "GND" H 5955 4277 50  0000 C CNN
+F 2 "" H 5950 4450 50  0001 C CNN
+F 3 "" H 5950 4450 50  0001 C CNN
+	1    5950 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 1450 2    50   Input ~ 0
+locking
+Text GLabel 5950 2800 2    50   Input ~ 0
+auto_relock
+Text GLabel 5950 4150 2    50   Input ~ 0
+locked
+$Comp
+L power:GND #PWR0111
+U 1 1 5D876C50
+P 2600 3000
+F 0 "#PWR0111" H 2600 2750 50  0001 C CNN
+F 1 "GND" V 2605 2872 50  0000 R CNN
+F 2 "" H 2600 3000 50  0001 C CNN
+F 3 "" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5D877612
+P 2600 3300
+F 0 "#PWR0112" H 2600 3050 50  0001 C CNN
+F 1 "GND" V 2605 3172 50  0000 R CNN
+F 2 "" H 2600 3300 50  0001 C CNN
+F 3 "" H 2600 3300 50  0001 C CNN
+	1    2600 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5D877C49
+P 2600 3600
+F 0 "#PWR0113" H 2600 3350 50  0001 C CNN
+F 1 "GND" V 2605 3472 50  0000 R CNN
+F 2 "" H 2600 3600 50  0001 C CNN
+F 3 "" H 2600 3600 50  0001 C CNN
+	1    2600 3600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6250 1050 2    50   Input ~ 0
+locking_NO
+Text GLabel 6250 1250 2    50   Input ~ 0
+locking_NC
+Text GLabel 6250 2400 2    50   Input ~ 0
+auto_relock_NO
+Text GLabel 6250 2600 2    50   Input ~ 0
+auto_relock_NC
+Text GLabel 6250 3750 2    50   Input ~ 0
+locked_NO
+Text GLabel 6250 3950 2    50   Input ~ 0
+locked_NC
+Text GLabel 2600 3100 2    50   Input ~ 0
+locking_NO
+Text GLabel 2600 2900 2    50   Input ~ 0
+locking_NC
+Text GLabel 2600 3400 2    50   Input ~ 0
+auto_relock_NO
+Text GLabel 2600 3200 2    50   Input ~ 0
+auto_relock_NC
+Text GLabel 2600 3700 2    50   Input ~ 0
+locked_NO
+Text GLabel 2600 3500 2    50   Input ~ 0
+locked_NC
+$Comp
+L molex_1050170001:1050170001 J4
+U 1 1 5D89B258
+P 2350 4650
+F 0 "J4" H 2457 5217 50  0000 C CNN
+F 1 "1050170001" H 2457 5126 50  0000 C CNN
+F 2 "molex 1050170001:MOLEX_1050170001" H 2350 4650 50  0001 L BNN
+F 3 "1050170001" H 2350 4650 50  0001 L BNN
+F 4 "Conn.; Data; USB; Recept.; Micro; B Type; Bottom Mount, SMT, with Solder Tabs, Lead-Free" H 2350 4650 50  0001 L BNN "Field4"
+F 5 "WM1399CT-ND" H 2350 4650 50  0001 L BNN "Field5"
+F 6 "https://www.digikey.com/product-detail/en/molex/1050170001/WM1399CT-ND/2350885?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 2350 4650 50  0001 L BNN "Field6"
+F 7 "None" H 2350 4650 50  0001 L BNN "Field7"
+F 8 "Molex" H 2350 4650 50  0001 L BNN "Field8"
+	1    2350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5D89CCE1
+P 2750 4950
+F 0 "#PWR0114" H 2750 4700 50  0001 C CNN
+F 1 "GND" V 2755 4822 50  0000 R CNN
+F 2 "" H 2750 4950 50  0001 C CNN
+F 3 "" H 2750 4950 50  0001 C CNN
+	1    2750 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5D89DEC8
+P 2750 4750
+F 0 "#PWR0115" H 2750 4500 50  0001 C CNN
+F 1 "GND" V 2755 4622 50  0000 R CNN
+F 2 "" H 2750 4750 50  0001 C CNN
+F 3 "" H 2750 4750 50  0001 C CNN
+	1    2750 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 5D89E50A
+P 2750 4350
+F 0 "#PWR0116" H 2750 4200 50  0001 C CNN
+F 1 "+5V" V 2765 4478 50  0000 L CNN
+F 2 "" H 2750 4350 50  0001 C CNN
+F 3 "" H 2750 4350 50  0001 C CNN
+	1    2750 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Analog_Switch:MAX333A U1
+U 5 1 5D8A9C8D
+P 4200 1500
+F 0 "U1" V 3883 1500 50  0000 C CNN
+F 1 "MAX333A" V 3974 1500 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4200 1500 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf" H 4200 1500 50  0001 C CNN
+	5    4200 1500
+	0    1    1    0   
+$EndComp
+Connection ~ 3700 1600
+$Comp
+L Analog_Switch:MAX333A U1
+U 4 1 5D8ADDCC
+P 7300 1400
+F 0 "U1" H 7300 1642 50  0000 C CNN
+F 1 "MAX333A" H 7300 1551 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 7300 1400 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf" H 7300 1400 50  0001 C CNN
+	4    7300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0105
+U 1 1 5D8DCFE1
+P 4700 1500
+F 0 "#PWR0105" H 4700 1350 50  0001 C CNN
+F 1 "+12V" V 4715 1628 50  0000 L CNN
+F 2 "" H 4700 1500 50  0001 C CNN
+F 3 "" H 4700 1500 50  0001 C CNN
+	1    4700 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0117
+U 1 1 5D8DE019
+P 2600 1700
+F 0 "#PWR0117" H 2600 1550 50  0001 C CNN
+F 1 "+12V" V 2615 1828 50  0000 L CNN
+F 2 "" H 2600 1700 50  0001 C CNN
+F 3 "" H 2600 1700 50  0001 C CNN
+	1    2600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5D8DE883
+P 2400 1800
+F 0 "J1" H 2318 1475 50  0000 C CNN
+F 1 "Conn_01x03" H 2318 1566 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 1800 50  0001 C CNN
+F 3 "~" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

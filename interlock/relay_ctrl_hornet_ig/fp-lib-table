@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name SJ-43514-SMT)(type Legacy)(uri ${KIPRJMOD}/parts/SJ-43514-SMT.mod)(options "")(descr ""))
+  (lib (name SJ-2523-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/parts/SJ-2523-SMT-TR.mod)(options "")(descr ""))
+  (lib (name SJ-3523-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/parts/SJ-3523-SMT-TR.mod)(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name 5557969-1)(type Legacy)(uri ${KIPRJMOD}/parts/5557969-1.lib)(options "")(descr ""))
+  (lib (name 6368150-1)(type Legacy)(uri ${KIPRJMOD}/parts/6368150-1.lib)(options "")(descr ""))
+  (lib (name PJ-032B)(type Legacy)(uri ${KIPRJMOD}/parts/PJ-032B.lib)(options "")(descr ""))
+  (lib (name 694108402002)(type Legacy)(uri ${KIPRJMOD}/parts/694108402002.lib)(options "")(descr ""))
+)

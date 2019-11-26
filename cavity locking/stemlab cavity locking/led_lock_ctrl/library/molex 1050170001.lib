@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1050170001
+#
+DEF 1050170001 J 0 40 Y Y 1 L N
+F0 "J" -200 400 50 H V L BNN
+F1 "1050170001" -200 -501 50 H V L BNN
+F2 "MOLEX_1050170001" 0 0 50 H I L BNN
+F3 "1050170001" 0 0 50 H I L BNN
+F4 "Conn.; Data; USB; Recept.; Micro; B Type; Bottom Mount, SMT, with Solder Tabs, Lead-Free" 0 0 50 H I L BNN
+F5 "WM1399CT-ND" 0 0 50 H I L BNN
+F6 "https://www.digikey.com/product-detail/en/molex/1050170001/WM1399CT-ND/2350885?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "Molex" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -200 400 -200 -400 N
+P 2 0 0 10 -200 -400 200 -400 N
+P 2 0 0 10 200 -400 200 400 N
+P 2 0 0 10 200 400 -200 400 N
+X 1 1 400 300 200 L 40 40 0 0 P 
+X 2 2 400 200 200 L 40 40 0 0 P 
+X 3 3 400 100 200 L 40 40 0 0 P 
+X 4 4 400 0 200 L 40 40 0 0 P 
+X 5 5 400 -100 200 L 40 40 0 0 P 
+X SHIELD SH1 400 -300 200 L 40 40 0 0 P 
+X SHIELD SH2 400 -300 200 L 40 40 0 0 P 
+X SHIELD SH3 400 -300 200 L 40 40 0 0 P 
+X SHIELD SH4 400 -300 200 L 40 40 0 0 P 
+X SHIELD SH5 400 -300 200 L 40 40 0 0 P 
+X SHIELD SH6 400 -300 200 L 40 40 0 0 P 
+X SHIELD SH7 400 -300 200 L 40 40 0 0 P 
+X SHIELD SH8 400 -300 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name CDCLVC1102PWR)(type Legacy)(uri ${KIPRJMOD}/Parts/CDCLVC1102PWR.mod)(options "")(descr ""))
+  (lib (name SN74LV1T34DBVR)(type Legacy)(uri ${KIPRJMOD}/Parts/SN74LV1T34DBVR.mod)(options "")(descr ""))
+)
