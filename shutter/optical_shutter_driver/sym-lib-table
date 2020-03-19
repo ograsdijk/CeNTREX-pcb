@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 2020-02-19_02-51-26)(type Legacy)(uri ${KIPRJMOD}/parts/2020-02-19_02-51-26.lib)(options "")(descr ""))
+  (lib (name 2019-11-22_19-05-37)(type Legacy)(uri ${KIPRJMOD}/parts/2019-11-22_19-05-37.lib)(options "")(descr ""))
+)
