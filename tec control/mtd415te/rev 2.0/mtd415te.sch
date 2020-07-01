@@ -1,0 +1,1107 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 5D862F2C
+P 7900 1600
+F 0 "J3" H 7980 1592 50  0000 L CNN
+F 1 "Conn_01x08" H 7980 1501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7900 1600 50  0001 C CNN
+F 3 "~" H 7900 1600 50  0001 C CNN
+	1    7900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J4
+U 1 1 5D8648E7
+P 8850 1700
+F 0 "J4" H 8930 1692 50  0000 L CNN
+F 1 "Conn_01x08" H 8930 1601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8850 1700 50  0001 C CNN
+F 3 "~" H 8850 1700 50  0001 C CNN
+	1    8850 1700
+	-1   0    0    1   
+$EndComp
+Text GLabel 7700 1800 0    50   Input ~ 0
+VREF2
+Text GLabel 7700 1900 0    50   Input ~ 0
+TEMP2
+Text GLabel 7700 2000 0    50   Input ~ 0
+GNDS2
+Text GLabel 9050 2000 2    50   Input ~ 0
+TEC2+
+Text GLabel 9050 1900 2    50   Input ~ 0
+TEC2-
+Text GLabel 9050 1700 2    50   Input ~ 0
+TX2_C
+Text GLabel 9050 1600 2    50   Input ~ 0
+RX2_C
+Text GLabel 9050 1500 2    50   Input ~ 0
+STATUS2_C
+Text GLabel 9050 1400 2    50   Input ~ 0
+ENABLE2_C
+Text Notes 8000 1050 0    118  ~ 24
+MTD415T
+$Comp
+L power:GNDD #PWR0119
+U 1 1 5D872897
+P 7700 1500
+F 0 "#PWR0119" H 7700 1250 50  0001 C CNN
+F 1 "GNDD" V 7704 1390 50  0000 R CNN
+F 2 "" H 7700 1500 50  0001 C CNN
+F 3 "" H 7700 1500 50  0001 C CNN
+	1    7700 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0120
+U 1 1 5D873055
+P 7700 1400
+F 0 "#PWR0120" H 7700 1150 50  0001 C CNN
+F 1 "GNDD" V 7704 1290 50  0000 R CNN
+F 2 "" H 7700 1400 50  0001 C CNN
+F 3 "" H 7700 1400 50  0001 C CNN
+	1    7700 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0121
+U 1 1 5D873210
+P 9050 1800
+F 0 "#PWR0121" H 9050 1550 50  0001 C CNN
+F 1 "GNDD" V 9054 1690 50  0000 R CNN
+F 2 "" H 9050 1800 50  0001 C CNN
+F 3 "" H 9050 1800 50  0001 C CNN
+	1    9050 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0122
+U 1 1 5D873641
+P 7700 1300
+F 0 "#PWR0122" H 7700 1150 50  0001 C CNN
+F 1 "+5V" V 7715 1428 50  0000 L CNN
+F 2 "" H 7700 1300 50  0001 C CNN
+F 3 "" H 7700 1300 50  0001 C CNN
+	1    7700 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0112
+U 1 1 5D8FC4C8
+P 9050 1300
+F 0 "#PWR0112" H 9050 1050 50  0001 C CNN
+F 1 "GNDD" V 9054 1190 50  0000 R CNN
+F 2 "" H 9050 1300 50  0001 C CNN
+F 3 "" H 9050 1300 50  0001 C CNN
+	1    9050 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L teensy:Teensy4.0 U1
+U 1 1 5E74B800
+P 2700 2550
+F 0 "U1" H 2700 4165 50  0000 C CNN
+F 1 "Teensy4.0" H 2700 4074 50  0000 C CNN
+F 2 "footprints:Teensy40" H 2300 2750 50  0001 C CNN
+F 3 "" H 2300 2750 50  0001 C CNN
+	1    2700 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 1300 0    50   Input ~ 0
+RX1
+Text GLabel 1600 1400 0    50   Input ~ 0
+TX1
+Text GLabel 1600 2000 0    50   Input ~ 0
+RX2
+Text GLabel 1600 2100 0    50   Input ~ 0
+TX2
+Text GLabel 1600 1500 0    50   Input ~ 0
+ENABLE1
+Text GLabel 1600 2200 0    50   Input ~ 0
+ENABLE2
+Text GLabel 1600 2400 0    50   Input ~ 0
+BUTTON1
+Text GLabel 1600 2500 0    50   Input ~ 0
+BUTTON2
+Text GLabel 1600 3800 0    50   Input ~ 0
+TX3
+Text GLabel 1600 3900 0    50   Input ~ 0
+RX3
+$Comp
+L Connector_Generic:Conn_01x08 J6
+U 1 1 5E75446B
+P 5450 1600
+F 0 "J6" H 5530 1592 50  0000 L CNN
+F 1 "Conn_01x08" H 5530 1501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5450 1600 50  0001 C CNN
+F 3 "~" H 5450 1600 50  0001 C CNN
+	1    5450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J8
+U 1 1 5E754471
+P 6400 1700
+F 0 "J8" H 6480 1692 50  0000 L CNN
+F 1 "Conn_01x08" H 6480 1601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6400 1700 50  0001 C CNN
+F 3 "~" H 6400 1700 50  0001 C CNN
+	1    6400 1700
+	-1   0    0    1   
+$EndComp
+Text GLabel 5250 1800 0    50   Input ~ 0
+VREF1
+Text GLabel 5250 1900 0    50   Input ~ 0
+TEMP1
+Text GLabel 5250 2000 0    50   Input ~ 0
+GNDS1
+Text GLabel 6600 2000 2    50   Input ~ 0
+TEC1+
+Text GLabel 6600 1900 2    50   Input ~ 0
+TEC1-
+Text GLabel 6600 1700 2    50   Input ~ 0
+TX1_C
+Text GLabel 6600 1600 2    50   Input ~ 0
+RX1_C
+Text GLabel 6600 1500 2    50   Input ~ 0
+STATUS1_C
+Text GLabel 6600 1400 2    50   Input ~ 0
+ENABLE1_C
+Text Notes 5550 1050 0    118  ~ 24
+MTD415T
+$Comp
+L power:GNDD #PWR0101
+U 1 1 5E754481
+P 5250 1500
+F 0 "#PWR0101" H 5250 1250 50  0001 C CNN
+F 1 "GNDD" V 5254 1390 50  0000 R CNN
+F 2 "" H 5250 1500 50  0001 C CNN
+F 3 "" H 5250 1500 50  0001 C CNN
+	1    5250 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0102
+U 1 1 5E754487
+P 5250 1400
+F 0 "#PWR0102" H 5250 1150 50  0001 C CNN
+F 1 "GNDD" V 5254 1290 50  0000 R CNN
+F 2 "" H 5250 1400 50  0001 C CNN
+F 3 "" H 5250 1400 50  0001 C CNN
+	1    5250 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0103
+U 1 1 5E75448D
+P 6600 1800
+F 0 "#PWR0103" H 6600 1550 50  0001 C CNN
+F 1 "GNDD" V 6604 1690 50  0000 R CNN
+F 2 "" H 6600 1800 50  0001 C CNN
+F 3 "" H 6600 1800 50  0001 C CNN
+	1    6600 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5E754493
+P 5250 1300
+F 0 "#PWR0104" H 5250 1150 50  0001 C CNN
+F 1 "+5V" V 5265 1428 50  0000 L CNN
+F 2 "" H 5250 1300 50  0001 C CNN
+F 3 "" H 5250 1300 50  0001 C CNN
+	1    5250 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0105
+U 1 1 5E754499
+P 6600 1300
+F 0 "#PWR0105" H 6600 1050 50  0001 C CNN
+F 1 "GNDD" V 6604 1190 50  0000 R CNN
+F 2 "" H 6600 1300 50  0001 C CNN
+F 3 "" H 6600 1300 50  0001 C CNN
+	1    6600 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J7
+U 1 1 5E7657AF
+P 5450 3100
+F 0 "J7" H 5530 3092 50  0000 L CNN
+F 1 "Conn_01x08" H 5530 3001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5450 3100 50  0001 C CNN
+F 3 "~" H 5450 3100 50  0001 C CNN
+	1    5450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J9
+U 1 1 5E7657B5
+P 6400 3200
+F 0 "J9" H 6480 3192 50  0000 L CNN
+F 1 "Conn_01x08" H 6480 3101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6400 3200 50  0001 C CNN
+F 3 "~" H 6400 3200 50  0001 C CNN
+	1    6400 3200
+	-1   0    0    1   
+$EndComp
+Text GLabel 5250 3300 0    50   Input ~ 0
+VREF3
+Text GLabel 5250 3400 0    50   Input ~ 0
+TEMP3
+Text GLabel 5250 3500 0    50   Input ~ 0
+GNDS3
+Text GLabel 6600 2800 2    50   Input ~ 0
+TEC3+
+Text GLabel 6600 2900 2    50   Input ~ 0
+TEC3-
+Text GLabel 6600 3100 2    50   Input ~ 0
+TX3_C
+Text GLabel 6600 3200 2    50   Input ~ 0
+RX3_C
+Text GLabel 6600 3300 2    50   Input ~ 0
+STATUS3_C
+Text GLabel 6600 3400 2    50   Input ~ 0
+ENABLE3_C
+Text Notes 5550 2550 0    118  ~ 24
+MTD415T
+$Comp
+L power:GNDD #PWR0106
+U 1 1 5E7657C5
+P 5250 3000
+F 0 "#PWR0106" H 5250 2750 50  0001 C CNN
+F 1 "GNDD" V 5254 2890 50  0000 R CNN
+F 2 "" H 5250 3000 50  0001 C CNN
+F 3 "" H 5250 3000 50  0001 C CNN
+	1    5250 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0107
+U 1 1 5E7657CB
+P 5250 2900
+F 0 "#PWR0107" H 5250 2650 50  0001 C CNN
+F 1 "GNDD" V 5254 2790 50  0000 R CNN
+F 2 "" H 5250 2900 50  0001 C CNN
+F 3 "" H 5250 2900 50  0001 C CNN
+	1    5250 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0108
+U 1 1 5E7657D1
+P 6600 3000
+F 0 "#PWR0108" H 6600 2750 50  0001 C CNN
+F 1 "GNDD" V 6604 2890 50  0000 R CNN
+F 2 "" H 6600 3000 50  0001 C CNN
+F 3 "" H 6600 3000 50  0001 C CNN
+	1    6600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5E7657D7
+P 5250 2800
+F 0 "#PWR0109" H 5250 2650 50  0001 C CNN
+F 1 "+5V" V 5265 2928 50  0000 L CNN
+F 2 "" H 5250 2800 50  0001 C CNN
+F 3 "" H 5250 2800 50  0001 C CNN
+	1    5250 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0110
+U 1 1 5E7657DD
+P 6600 3500
+F 0 "#PWR0110" H 6600 3250 50  0001 C CNN
+F 1 "GNDD" V 6604 3390 50  0000 R CNN
+F 2 "" H 6600 3500 50  0001 C CNN
+F 3 "" H 6600 3500 50  0001 C CNN
+	1    6600 3500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1600 3600 0    50   Input ~ 0
+SDA_DISPLAY
+Text GLabel 1600 3700 0    50   Input ~ 0
+SCL_DISPLAY
+Text GLabel 3800 3900 2    50   Input ~ 0
+ENABLE3
+Text GLabel 1600 3100 0    50   Input ~ 0
+BUTTON3
+Text GLabel 1600 4800 1    50   Input ~ 0
+BUTTON1
+Text GLabel 1400 4800 1    50   Input ~ 0
+BUTTON2
+Text GLabel 1200 4800 1    50   Input ~ 0
+BUTTON3
+Text GLabel 1000 4800 1    50   Input ~ 0
+BUTTON4
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 5E76934E
+P 1500 4800
+F 0 "#PWR0111" H 1500 4650 50  0001 C CNN
+F 1 "+3.3V" H 1515 4973 50  0000 C CNN
+F 2 "" H 1500 4800 50  0001 C CNN
+F 3 "" H 1500 4800 50  0001 C CNN
+	1    1500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 5E7696B1
+P 1300 4800
+F 0 "#PWR0113" H 1300 4650 50  0001 C CNN
+F 1 "+3.3V" H 1315 4973 50  0000 C CNN
+F 2 "" H 1300 4800 50  0001 C CNN
+F 3 "" H 1300 4800 50  0001 C CNN
+	1    1300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5E769A19
+P 1100 4800
+F 0 "#PWR0114" H 1100 4650 50  0001 C CNN
+F 1 "+3.3V" H 1115 4973 50  0000 C CNN
+F 2 "" H 1100 4800 50  0001 C CNN
+F 3 "" H 1100 4800 50  0001 C CNN
+	1    1100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 5E769D93
+P 900 4800
+F 0 "#PWR0115" H 900 4650 50  0001 C CNN
+F 1 "+3.3V" H 915 4973 50  0000 C CNN
+F 2 "" H 900 4800 50  0001 C CNN
+F 3 "" H 900 4800 50  0001 C CNN
+	1    900  4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E76AAE0
+P 2600 5000
+F 0 "J2" V 2472 5080 50  0000 L CNN
+F 1 "Conn_01x02" V 2563 5080 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 2600 5000 50  0001 C CNN
+F 3 "~" H 2600 5000 50  0001 C CNN
+	1    2600 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 5E76AFF2
+P 2600 4800
+F 0 "#PWR0117" H 2600 4650 50  0001 C CNN
+F 1 "+5V" H 2615 4973 50  0000 C CNN
+F 2 "" H 2600 4800 50  0001 C CNN
+F 3 "" H 2600 4800 50  0001 C CNN
+	1    2600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5E76B9D0
+P 3750 5000
+F 0 "J5" V 3622 5180 50  0000 L CNN
+F 1 "Conn_01x04" V 3713 5180 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3750 5000 50  0001 C CNN
+F 3 "~" H 3750 5000 50  0001 C CNN
+	1    3750 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 3850 4800 1    50   Input ~ 0
+SDA_DISPLAY
+Text GLabel 3750 4800 1    50   Input ~ 0
+SCL_DISPLAY
+$Comp
+L power:GNDD #PWR0118
+U 1 1 5E7939B7
+P 1600 1200
+F 0 "#PWR0118" H 1600 950 50  0001 C CNN
+F 1 "GNDD" V 1604 1090 50  0000 R CNN
+F 2 "" H 1600 1200 50  0001 C CNN
+F 3 "" H 1600 1200 50  0001 C CNN
+	1    1600 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0123
+U 1 1 5E7947A9
+P 2500 4800
+F 0 "#PWR0123" H 2500 4550 50  0001 C CNN
+F 1 "GNDD" H 2504 4645 50  0000 C CNN
+F 2 "" H 2500 4800 50  0001 C CNN
+F 3 "" H 2500 4800 50  0001 C CNN
+	1    2500 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0125
+U 1 1 5E7951D0
+P 3650 4800
+F 0 "#PWR0125" H 3650 4550 50  0001 C CNN
+F 1 "GNDD" H 3654 4645 50  0000 C CNN
+F 2 "" H 3650 4800 50  0001 C CNN
+F 3 "" H 3650 4800 50  0001 C CNN
+	1    3650 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5E7988EB
+P 6000 4500
+F 0 "J10" V 5872 4680 50  0000 L CNN
+F 1 "Conn_01x04" V 5963 4680 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00003_1x04_P5.00mm_Horizontal" H 6000 4500 50  0001 C CNN
+F 3 "~" H 6000 4500 50  0001 C CNN
+	1    6000 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J11
+U 1 1 5E79AA9A
+P 7000 4500
+F 0 "J11" V 6872 4680 50  0000 L CNN
+F 1 "Conn_01x04" V 6963 4680 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00003_1x04_P5.00mm_Horizontal" H 7000 4500 50  0001 C CNN
+F 3 "~" H 7000 4500 50  0001 C CNN
+	1    7000 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J12
+U 1 1 5E79B248
+P 8000 4500
+F 0 "J12" V 7872 4680 50  0000 L CNN
+F 1 "Conn_01x04" V 7963 4680 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00003_1x04_P5.00mm_Horizontal" H 8000 4500 50  0001 C CNN
+F 3 "~" H 8000 4500 50  0001 C CNN
+	1    8000 4500
+	0    1    1    0   
+$EndComp
+Text GLabel 5900 4300 1    50   Input ~ 0
+TEC1-
+Text GLabel 5800 4300 1    50   Input ~ 0
+TEC1+
+Text GLabel 6000 4300 1    50   Input ~ 0
+TEMP1
+Text GLabel 6100 4300 1    50   Input ~ 0
+VREF1
+Text GLabel 6900 4300 1    50   Input ~ 0
+TEC2-
+Text GLabel 6800 4300 1    50   Input ~ 0
+TEC2+
+Text GLabel 7000 4300 1    50   Input ~ 0
+TEMP2
+Text GLabel 7100 4300 1    50   Input ~ 0
+VREF2
+Text GLabel 7900 4300 1    50   Input ~ 0
+TEC3-
+Text GLabel 7800 4300 1    50   Input ~ 0
+TEC3+
+Text GLabel 8000 4300 1    50   Input ~ 0
+TEMP3
+Text GLabel 8100 4300 1    50   Input ~ 0
+VREF3
+$Comp
+L power:GNDD #PWR0124
+U 1 1 5E7D6517
+P 3800 3600
+F 0 "#PWR0124" H 3800 3350 50  0001 C CNN
+F 1 "GNDD" V 3804 3490 50  0000 R CNN
+F 2 "" H 3800 3600 50  0001 C CNN
+F 3 "" H 3800 3600 50  0001 C CNN
+	1    3800 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0126
+U 1 1 5E7D693A
+P 1600 2800
+F 0 "#PWR0126" H 1600 2550 50  0001 C CNN
+F 1 "GNDD" V 1604 2690 50  0000 R CNN
+F 2 "" H 1600 2800 50  0001 C CNN
+F 3 "" H 1600 2800 50  0001 C CNN
+	1    1600 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 5E76A494
+P 3800 3700
+F 0 "#PWR0116" H 3800 3550 50  0001 C CNN
+F 1 "+3.3V" V 3815 3828 50  0000 L CNN
+F 2 "" H 3800 3700 50  0001 C CNN
+F 3 "" H 3800 3700 50  0001 C CNN
+	1    3800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0127
+U 1 1 5E7994FE
+P 3550 4800
+F 0 "#PWR0127" H 3550 4650 50  0001 C CNN
+F 1 "+3.3V" V 3565 4928 50  0000 L CNN
+F 2 "" H 3550 4800 50  0001 C CNN
+F 3 "" H 3550 4800 50  0001 C CNN
+	1    3550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TXS0108EPWR:TXS0108EPWR U2
+U 1 1 5E79C8B9
+P 1600 5950
+F 0 "U2" H 2700 6337 60  0000 C CNN
+F 1 "TXS0108EPWR" H 2700 6231 60  0000 C CNN
+F 2 "footprints:TXS0108EPWR" H 2700 6190 60  0001 C CNN
+F 3 "" H 1600 5950 60  0000 C CNN
+	1    1600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0128
+U 1 1 5E79FA5C
+P 950 6050
+F 0 "#PWR0128" H 950 5900 50  0001 C CNN
+F 1 "+3.3V" V 965 6178 50  0000 L CNN
+F 2 "" H 950 6050 50  0001 C CNN
+F 3 "" H 950 6050 50  0001 C CNN
+	1    950  6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0129
+U 1 1 5E7A1276
+P 4500 6050
+F 0 "#PWR0129" H 4500 5900 50  0001 C CNN
+F 1 "+5V" V 4515 6178 50  0000 L CNN
+F 2 "" H 4500 6050 50  0001 C CNN
+F 3 "" H 4500 6050 50  0001 C CNN
+	1    4500 6050
+	0    1    1    0   
+$EndComp
+Text GLabel 1600 6250 0    50   Input ~ 0
+RX2
+Text GLabel 1600 6150 0    50   Input ~ 0
+TX2
+Text GLabel 1600 5950 0    50   Input ~ 0
+ENABLE2
+$Comp
+L power:+3.3V #PWR0131
+U 1 1 5E7A3419
+P 1600 6850
+F 0 "#PWR0131" H 1600 6700 50  0001 C CNN
+F 1 "+3.3V" V 1615 6978 50  0000 L CNN
+F 2 "" H 1600 6850 50  0001 C CNN
+F 3 "" H 1600 6850 50  0001 C CNN
+	1    1600 6850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1600 6750 0    50   Input ~ 0
+RX1
+Text GLabel 1600 6650 0    50   Input ~ 0
+TX1
+Text GLabel 1600 6550 0    50   Input ~ 0
+ENABLE1
+Text GLabel 3800 6650 2    50   Input ~ 0
+TX1_C
+Text GLabel 3800 6750 2    50   Input ~ 0
+RX1_C
+Text GLabel 3800 6550 2    50   Input ~ 0
+ENABLE1_C
+Text GLabel 3800 6150 2    50   Input ~ 0
+TX2_C
+Text GLabel 3800 6250 2    50   Input ~ 0
+RX2_C
+Text GLabel 3800 5950 2    50   Input ~ 0
+ENABLE2_C
+Wire Wire Line
+	3800 6050 4400 6050
+$Comp
+L Device:C C2
+U 1 1 5E7AA6D9
+P 4400 5900
+F 0 "C2" H 4515 5946 50  0000 L CNN
+F 1 "0.1uF" H 4515 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 5750 50  0001 C CNN
+F 3 "~" H 4400 5900 50  0001 C CNN
+	1    4400 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 6050
+Wire Wire Line
+	4400 6050 4500 6050
+$Comp
+L Device:C C1
+U 1 1 5E7AB911
+P 1050 5900
+F 0 "C1" H 1165 5946 50  0000 L CNN
+F 1 "0.1uF" H 1165 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 5750 50  0001 C CNN
+F 3 "~" H 1050 5900 50  0001 C CNN
+	1    1050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TXS0108EPWR:TXS0108EPWR U3
+U 1 1 5E7B38AB
+P 6300 5300
+F 0 "U3" H 7400 5687 60  0000 C CNN
+F 1 "TXS0108EPWR" H 7400 5581 60  0000 C CNN
+F 2 "footprints:TXS0108EPWR" H 7400 5540 60  0001 C CNN
+F 3 "" H 6300 5300 60  0000 C CNN
+	1    6300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0134
+U 1 1 5E7B38B1
+P 5650 5400
+F 0 "#PWR0134" H 5650 5250 50  0001 C CNN
+F 1 "+3.3V" V 5665 5528 50  0000 L CNN
+F 2 "" H 5650 5400 50  0001 C CNN
+F 3 "" H 5650 5400 50  0001 C CNN
+	1    5650 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0135
+U 1 1 5E7B38B7
+P 9200 5400
+F 0 "#PWR0135" H 9200 5250 50  0001 C CNN
+F 1 "+5V" V 9215 5528 50  0000 L CNN
+F 2 "" H 9200 5400 50  0001 C CNN
+F 3 "" H 9200 5400 50  0001 C CNN
+	1    9200 5400
+	0    1    1    0   
+$EndComp
+Text GLabel 6300 6000 0    50   Input ~ 0
+RX4
+Text GLabel 6300 5900 0    50   Input ~ 0
+TX4
+Text GLabel 6300 6100 0    50   Input ~ 0
+ENABLE4
+$Comp
+L power:+3.3V #PWR0137
+U 1 1 5E7B38C7
+P 6300 6200
+F 0 "#PWR0137" H 6300 6050 50  0001 C CNN
+F 1 "+3.3V" V 6315 6328 50  0000 L CNN
+F 2 "" H 6300 6200 50  0001 C CNN
+F 3 "" H 6300 6200 50  0001 C CNN
+	1    6300 6200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6300 5500 0    50   Input ~ 0
+RX3
+Text GLabel 6300 5600 0    50   Input ~ 0
+TX3
+Text GLabel 6300 5300 0    50   Input ~ 0
+ENABLE3
+Text GLabel 8500 5600 2    50   Input ~ 0
+TX3_C
+Text GLabel 8500 5500 2    50   Input ~ 0
+RX3_C
+Text GLabel 8500 5300 2    50   Input ~ 0
+ENABLE3_C
+Text GLabel 8500 5900 2    50   Input ~ 0
+TX4_C
+Text GLabel 8500 6000 2    50   Input ~ 0
+RX4_C
+Text GLabel 8500 6100 2    50   Input ~ 0
+ENABLE4_C
+Wire Wire Line
+	8500 5400 9100 5400
+$Comp
+L Device:C C4
+U 1 1 5E7B38DB
+P 9100 5250
+F 0 "C4" H 9215 5296 50  0000 L CNN
+F 1 "0.1uF" H 9215 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9138 5100 50  0001 C CNN
+F 3 "~" H 9100 5250 50  0001 C CNN
+	1    9100 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 5400
+Wire Wire Line
+	9100 5400 9200 5400
+$Comp
+L Device:C C3
+U 1 1 5E7B38E3
+P 5750 5250
+F 0 "C3" H 5865 5296 50  0000 L CNN
+F 1 "0.1uF" H 5865 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 5100 50  0001 C CNN
+F 3 "~" H 5750 5250 50  0001 C CNN
+	1    5750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J13
+U 1 1 5E7BA7E4
+P 7900 3100
+F 0 "J13" H 7980 3092 50  0000 L CNN
+F 1 "Conn_01x08" H 7980 3001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7900 3100 50  0001 C CNN
+F 3 "~" H 7900 3100 50  0001 C CNN
+	1    7900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J14
+U 1 1 5E7BA7EA
+P 8850 3200
+F 0 "J14" H 8930 3192 50  0000 L CNN
+F 1 "Conn_01x08" H 8930 3101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8850 3200 50  0001 C CNN
+F 3 "~" H 8850 3200 50  0001 C CNN
+	1    8850 3200
+	-1   0    0    1   
+$EndComp
+Text GLabel 7700 3300 0    50   Input ~ 0
+VREF4
+Text GLabel 7700 3400 0    50   Input ~ 0
+TEMP4
+Text GLabel 7700 3500 0    50   Input ~ 0
+GNDS4
+Text GLabel 9050 3500 2    50   Input ~ 0
+TEC4+
+Text GLabel 9050 3400 2    50   Input ~ 0
+TEC4-
+Text GLabel 9050 3200 2    50   Input ~ 0
+TX4_C
+Text GLabel 9050 3100 2    50   Input ~ 0
+RX4_C
+Text GLabel 9050 3000 2    50   Input ~ 0
+STATUS4_C
+Text GLabel 9050 2900 2    50   Input ~ 0
+ENABLE4_C
+Text Notes 8000 2550 0    118  ~ 24
+MTD415T
+$Comp
+L power:GNDD #PWR0140
+U 1 1 5E7BA7FA
+P 7700 3000
+F 0 "#PWR0140" H 7700 2750 50  0001 C CNN
+F 1 "GNDD" V 7704 2890 50  0000 R CNN
+F 2 "" H 7700 3000 50  0001 C CNN
+F 3 "" H 7700 3000 50  0001 C CNN
+	1    7700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0141
+U 1 1 5E7BA800
+P 7700 2900
+F 0 "#PWR0141" H 7700 2650 50  0001 C CNN
+F 1 "GNDD" V 7704 2790 50  0000 R CNN
+F 2 "" H 7700 2900 50  0001 C CNN
+F 3 "" H 7700 2900 50  0001 C CNN
+	1    7700 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0142
+U 1 1 5E7BA806
+P 9050 3300
+F 0 "#PWR0142" H 9050 3050 50  0001 C CNN
+F 1 "GNDD" V 9054 3190 50  0000 R CNN
+F 2 "" H 9050 3300 50  0001 C CNN
+F 3 "" H 9050 3300 50  0001 C CNN
+	1    9050 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0143
+U 1 1 5E7BA80C
+P 7700 2800
+F 0 "#PWR0143" H 7700 2650 50  0001 C CNN
+F 1 "+5V" V 7715 2928 50  0000 L CNN
+F 2 "" H 7700 2800 50  0001 C CNN
+F 3 "" H 7700 2800 50  0001 C CNN
+	1    7700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0144
+U 1 1 5E7BA812
+P 9050 2800
+F 0 "#PWR0144" H 9050 2550 50  0001 C CNN
+F 1 "GNDD" V 9054 2690 50  0000 R CNN
+F 2 "" H 9050 2800 50  0001 C CNN
+F 3 "" H 9050 2800 50  0001 C CNN
+	1    9050 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J15
+U 1 1 5E7BC57F
+P 9000 4500
+F 0 "J15" V 8872 4680 50  0000 L CNN
+F 1 "Conn_01x04" V 8963 4680 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00003_1x04_P5.00mm_Horizontal" H 9000 4500 50  0001 C CNN
+F 3 "~" H 9000 4500 50  0001 C CNN
+	1    9000 4500
+	0    1    1    0   
+$EndComp
+Text GLabel 8900 4300 1    50   Input ~ 0
+TEC4-
+Text GLabel 8800 4300 1    50   Input ~ 0
+TEC4+
+Text GLabel 9000 4300 1    50   Input ~ 0
+TEMP4
+Text GLabel 9100 4300 1    50   Input ~ 0
+VREF4
+Text GLabel 1600 3500 0    50   Input ~ 0
+TX4
+Text GLabel 1600 3400 0    50   Input ~ 0
+RX4
+Text GLabel 1600 3300 0    50   Input ~ 0
+ENABLE4
+Text GLabel 1600 3200 0    50   Input ~ 0
+BUTTON4
+Wire Wire Line
+	3800 6350 3800 6450
+Wire Wire Line
+	1600 6450 1600 6350
+$Comp
+L power:GNDD #PWR0132
+U 1 1 5E7E85EB
+P 1050 5750
+F 0 "#PWR0132" H 1050 5500 50  0001 C CNN
+F 1 "GNDD" H 1054 5595 50  0000 C CNN
+F 2 "" H 1050 5750 50  0001 C CNN
+F 3 "" H 1050 5750 50  0001 C CNN
+	1    1050 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0133
+U 1 1 5E7E9BF9
+P 4400 5750
+F 0 "#PWR0133" H 4400 5500 50  0001 C CNN
+F 1 "GNDD" H 4404 5595 50  0000 C CNN
+F 2 "" H 4400 5750 50  0001 C CNN
+F 3 "" H 4400 5750 50  0001 C CNN
+	1    4400 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0138
+U 1 1 5E7EA8EF
+P 1600 6450
+F 0 "#PWR0138" H 1600 6200 50  0001 C CNN
+F 1 "GNDD" V 1604 6340 50  0000 R CNN
+F 2 "" H 1600 6450 50  0001 C CNN
+F 3 "" H 1600 6450 50  0001 C CNN
+	1    1600 6450
+	0    1    1    0   
+$EndComp
+Connection ~ 1600 6450
+$Comp
+L power:GNDD #PWR0139
+U 1 1 5E7EB682
+P 3800 6450
+F 0 "#PWR0139" H 3800 6200 50  0001 C CNN
+F 1 "GNDD" V 3804 6340 50  0000 R CNN
+F 2 "" H 3800 6450 50  0001 C CNN
+F 3 "" H 3800 6450 50  0001 C CNN
+	1    3800 6450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3800 6450
+$Comp
+L power:GNDD #PWR0145
+U 1 1 5E7EBD9E
+P 5750 5100
+F 0 "#PWR0145" H 5750 4850 50  0001 C CNN
+F 1 "GNDD" H 5754 4945 50  0000 C CNN
+F 2 "" H 5750 5100 50  0001 C CNN
+F 3 "" H 5750 5100 50  0001 C CNN
+	1    5750 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0146
+U 1 1 5E7EC512
+P 9100 5100
+F 0 "#PWR0146" H 9100 4850 50  0001 C CNN
+F 1 "GNDD" H 9104 4945 50  0000 C CNN
+F 2 "" H 9100 5100 50  0001 C CNN
+F 3 "" H 9100 5100 50  0001 C CNN
+	1    9100 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  6050 1050 6050
+Wire Wire Line
+	1050 6050 1600 6050
+Connection ~ 1050 6050
+Wire Wire Line
+	5650 5400 5750 5400
+Connection ~ 5750 5400
+Wire Wire Line
+	5750 5400 6300 5400
+Wire Wire Line
+	6300 5800 6300 5700
+Wire Wire Line
+	8500 5800 8500 5700
+$Comp
+L power:GNDD #PWR0147
+U 1 1 5E80E0A4
+P 8500 5800
+F 0 "#PWR0147" H 8500 5550 50  0001 C CNN
+F 1 "GNDD" V 8504 5690 50  0000 R CNN
+F 2 "" H 8500 5800 50  0001 C CNN
+F 3 "" H 8500 5800 50  0001 C CNN
+	1    8500 5800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8500 5800
+$Comp
+L power:GNDD #PWR0148
+U 1 1 5E80EA15
+P 6300 5800
+F 0 "#PWR0148" H 6300 5550 50  0001 C CNN
+F 1 "GNDD" V 6304 5690 50  0000 R CNN
+F 2 "" H 6300 5800 50  0001 C CNN
+F 3 "" H 6300 5800 50  0001 C CNN
+	1    6300 5800
+	0    1    1    0   
+$EndComp
+Connection ~ 6300 5800
+$Comp
+L power:GNDD #PWR0130
+U 1 1 5E8133B8
+P 8500 6200
+F 0 "#PWR0130" H 8500 5950 50  0001 C CNN
+F 1 "GNDD" V 8504 6090 50  0000 R CNN
+F 2 "" H 8500 6200 50  0001 C CNN
+F 3 "" H 8500 6200 50  0001 C CNN
+	1    8500 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0136
+U 1 1 5E813DEE
+P 3800 6850
+F 0 "#PWR0136" H 3800 6600 50  0001 C CNN
+F 1 "GNDD" V 3804 6740 50  0000 R CNN
+F 2 "" H 3800 6850 50  0001 C CNN
+F 3 "" H 3800 6850 50  0001 C CNN
+	1    3800 6850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 4800 1    50   Input ~ 0
+CYCLINGBUTTON
+$Comp
+L power:+3.3V #PWR0149
+U 1 1 5E832239
+P 1700 4800
+F 0 "#PWR0149" H 1700 4650 50  0001 C CNN
+F 1 "+3.3V" H 1715 4973 50  0000 C CNN
+F 2 "" H 1700 4800 50  0001 C CNN
+F 3 "" H 1700 4800 50  0001 C CNN
+	1    1700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 5E832E05
+P 1400 5000
+F 0 "J1" V 1525 4946 50  0000 C CNN
+F 1 "Conn_01x10" V 1616 4946 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1400 5000 50  0001 C CNN
+F 3 "~" H 1400 5000 50  0001 C CNN
+	1    1400 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 1600 2300 0    50   Input ~ 0
+CYCLINGBUTTON
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5E8517BC
+P 3800 7400
+F 0 "H2" H 3900 7494 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3900 7403 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3900 7312 50  0000 L CNN
+F 3 "~" H 3800 7400 50  0001 C CNN
+	1    3800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0150
+U 1 1 5E852DED
+P 3800 7500
+F 0 "#PWR0150" H 3800 7250 50  0001 C CNN
+F 1 "GNDD" H 3804 7345 50  0000 C CNN
+F 2 "" H 3800 7500 50  0001 C CNN
+F 3 "" H 3800 7500 50  0001 C CNN
+	1    3800 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5E853D93
+P 1700 7400
+F 0 "H1" H 1800 7494 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1800 7403 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 7312 50  0000 L CNN
+F 3 "~" H 1700 7400 50  0001 C CNN
+	1    1700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0151
+U 1 1 5E853D99
+P 1700 7500
+F 0 "#PWR0151" H 1700 7250 50  0001 C CNN
+F 1 "GNDD" H 1704 7345 50  0000 C CNN
+F 2 "" H 1700 7500 50  0001 C CNN
+F 3 "" H 1700 7500 50  0001 C CNN
+	1    1700 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5E85724D
+P 10700 4100
+F 0 "H3" H 10800 4194 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10800 4103 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10800 4012 50  0000 L CNN
+F 3 "~" H 10700 4100 50  0001 C CNN
+	1    10700 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0153
+U 1 1 5E857253
+P 10800 4100
+F 0 "#PWR0153" H 10800 3850 50  0001 C CNN
+F 1 "GNDD" H 10804 3945 50  0000 C CNN
+F 2 "" H 10800 4100 50  0001 C CNN
+F 3 "" H 10800 4100 50  0001 C CNN
+	1    10800 4100
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

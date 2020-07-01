@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name 1050170001)(type Legacy)(uri ${KIPRJMOD}/parts/KiCAD/1050170001.mod)(options "")(descr ""))
+  (lib (name SN74AHC1G04DCKR)(type Legacy)(uri ${KIPRJMOD}/parts/KiCAD/SN74AHC1G04DCKR.mod)(options "")(descr ""))
+  (lib (name SN74LVC1G3157)(type Legacy)(uri ${KIPRJMOD}/parts/KiCAD/SN74LVC1G3157.mod)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/parts/KiCAD/footprints.pretty)(options "")(descr ""))
+)

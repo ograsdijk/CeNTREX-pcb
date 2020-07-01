@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/parts/KiCAD/teensy.lib)(options "")(descr ""))
+  (lib (name TXS0108EPWR)(type Legacy)(uri ${KIPRJMOD}/parts/KiCAD/TXS0108EPWR.lib)(options "")(descr ""))
+)
