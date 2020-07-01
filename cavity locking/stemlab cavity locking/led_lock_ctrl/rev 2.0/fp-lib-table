@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "molex 1050170001")(type Legacy)(uri "${KIPRJMOD}/library/molex 1050170001.mod")(options "")(descr ""))
+)

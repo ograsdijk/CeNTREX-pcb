@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*
 G04 #@! TF.CreationDate,2020-06-18T12:09:29-04:00*
+=======
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.4)-1*
+G04 #@! TF.CreationDate,2019-12-12T14:56:50-05:00*
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 G04 #@! TF.ProjectId,psu_board,7073755f-626f-4617-9264-2e6b69636164,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Legend,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+<<<<<<< HEAD
 G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2020-06-18 12:09:29*
+=======
+G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2019-12-12 14:56:50*
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*

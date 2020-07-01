@@ -1,4 +1,8 @@
 EESchema Schematic File Version 4
+<<<<<<< HEAD
+=======
+LIBS:psu_board-cache
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,6 +18,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+<<<<<<< HEAD
 L Connector_Generic:Conn_01x03 J1
 U 1 1 5D928EF4
 P 3350 3450
@@ -112,6 +117,40 @@ F 1 "GNDA" V 6905 2773 50  0000 R CNN
 F 2 "" H 6900 2900 50  0001 C CNN
 F 3 "" H 6900 2900 50  0001 C CNN
 	1    6900 2900
+=======
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5D92F700
+P 7100 2250
+F 0 "J6" H 7180 2292 50  0000 L CNN
+F 1 "Conn_01x01" H 7180 2201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 2250 50  0001 C CNN
+F 3 "~" H 7100 2250 50  0001 C CNN
+	1    7100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5D92F706
+P 7100 2550
+F 0 "J7" H 7180 2592 50  0000 L CNN
+F 1 "Conn_01x01" H 7180 2501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 2550 50  0001 C CNN
+F 3 "~" H 7100 2550 50  0001 C CNN
+	1    7100 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 2550 0    50   Input ~ 0
+230V
+$Comp
+L power:GNDA #PWR0109
+U 1 1 5D934E49
+P 6900 2250
+F 0 "#PWR0109" H 6900 2000 50  0001 C CNN
+F 1 "GNDA" V 6905 2123 50  0000 R CNN
+F 2 "" H 6900 2250 50  0001 C CNN
+F 3 "" H 6900 2250 50  0001 C CNN
+	1    6900 2250
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 	0    1    1    0   
 $EndComp
 $Comp
@@ -126,7 +165,11 @@ F 3 "~" H 8250 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8050 1650 0    50   Input ~ 0
+<<<<<<< HEAD
 110V
+=======
+230V
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 $Comp
 L power:GNDA #PWR0110
 U 1 1 5D93566C
@@ -139,6 +182,7 @@ F 3 "" H 8050 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
+<<<<<<< HEAD
 L Connector_Generic:Conn_01x01 J12
 U 1 1 5D93C17B
 P 6600 4200
@@ -147,6 +191,16 @@ F 1 "Conn_01x01" H 6680 4151 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6600 4200 50  0001 C CNN
 F 3 "~" H 6600 4200 50  0001 C CNN
 	1    6600 4200
+=======
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5D93C0FC
+P 5450 4050
+F 0 "J11" H 5530 4092 50  0000 L CNN
+F 1 "Conn_01x01" H 5530 4001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5450 4050 50  0001 C CNN
+F 3 "~" H 5450 4050 50  0001 C CNN
+	1    5450 4050
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -183,6 +237,7 @@ F 3 "~" H 4550 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
 L power:+12V #PWR0111
 U 1 1 5D9FF42A
 P 3550 2050
@@ -249,6 +304,8 @@ F 3 "" H 5200 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
+=======
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 L Connector:Screw_Terminal_01x02 J15
 U 1 1 5DA0BA12
 P 3350 1150
@@ -260,6 +317,20 @@ F 3 "~" H 3350 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
+<<<<<<< HEAD
+=======
+L Connector:Screw_Terminal_01x02 J16
+U 1 1 5DA0BEB0
+P 3350 1400
+F 0 "J16" H 3430 1392 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3430 1301 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 3350 1400 50  0001 C CNN
+F 3 "~" H 3350 1400 50  0001 C CNN
+	1    3350 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 L power:+12V #PWR0117
 U 1 1 5DA0C4FC
 P 3550 1050
@@ -282,6 +353,7 @@ F 3 "" H 3550 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+<<<<<<< HEAD
 L Mechanical:MountingHole H4
 U 1 1 5DA1A50E
 P 2600 4250
@@ -292,4 +364,280 @@ F 3 "~" H 2600 4250 50  0001 C CNN
 	1    2600 4250
 	1    0    0    -1  
 $EndComp
+=======
+L power:GND #PWR0119
+U 1 1 5DA0D9A3
+P 3550 1400
+F 0 "#PWR0119" H 3550 1150 50  0001 C CNN
+F 1 "GND" V 3555 1272 50  0000 R CNN
+F 2 "" H 3550 1400 50  0001 C CNN
+F 3 "" H 3550 1400 50  0001 C CNN
+	1    3550 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0120
+U 1 1 5DA0DF4A
+P 3550 1300
+F 0 "#PWR0120" H 3550 1150 50  0001 C CNN
+F 1 "+5V" V 3565 1428 50  0000 L CNN
+F 2 "" H 3550 1300 50  0001 C CNN
+F 3 "" H 3550 1300 50  0001 C CNN
+	1    3550 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5DA1A713
+P 2600 4700
+F 0 "H5" H 2700 4746 50  0000 L CNN
+F 1 "MountingHole" H 2700 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 4700 50  0001 C CNN
+F 3 "~" H 2600 4700 50  0001 C CNN
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5D92D723
+P 5150 1400
+F 0 "#PWR0107" H 5150 1150 50  0001 C CNN
+F 1 "GND" V 5155 1272 50  0000 R CNN
+F 2 "" H 5150 1400 50  0001 C CNN
+F 3 "" H 5150 1400 50  0001 C CNN
+	1    5150 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5D92A37C
+P 5350 1400
+F 0 "J3" H 5430 1442 50  0000 L CNN
+F 1 "Conn_01x01" H 5430 1351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5350 1400 50  0001 C CNN
+F 3 "~" H 5350 1400 50  0001 C CNN
+	1    5350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5D929E68
+P 5350 1100
+F 0 "J2" H 5430 1142 50  0000 L CNN
+F 1 "Conn_01x01" H 5430 1051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5350 1100 50  0001 C CNN
+F 3 "~" H 5350 1100 50  0001 C CNN
+	1    5350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5DF30CCB
+P 1700 2100
+F 0 "J1" H 1750 2417 50  0000 C CNN
+F 1 "Conn_02x04_Counter_Clockwise" H 1750 2326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1700 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+	1    1700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J8
+U 1 1 5DF31812
+P 1700 2950
+F 0 "J8" H 1750 3267 50  0000 C CNN
+F 1 "Conn_02x04_Counter_Clockwise" H 1750 3176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1700 2950 50  0001 C CNN
+F 3 "~" H 1700 2950 50  0001 C CNN
+	1    1700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5DF32271
+P 2000 3050
+F 0 "#PWR0101" H 2000 2900 50  0001 C CNN
+F 1 "+5V" V 2015 3178 50  0000 L CNN
+F 2 "" H 2000 3050 50  0001 C CNN
+F 3 "" H 2000 3050 50  0001 C CNN
+	1    2000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5DF32277
+P 2000 2850
+F 0 "#PWR0102" H 2000 2700 50  0001 C CNN
+F 1 "+5V" V 2015 2978 50  0000 L CNN
+F 2 "" H 2000 2850 50  0001 C CNN
+F 3 "" H 2000 2850 50  0001 C CNN
+	1    2000 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5DF3227D
+P 2000 2950
+F 0 "#PWR0103" H 2000 2800 50  0001 C CNN
+F 1 "+5V" V 2015 3078 50  0000 L CNN
+F 2 "" H 2000 2950 50  0001 C CNN
+F 3 "" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5DF323BE
+P 2000 3150
+F 0 "#PWR0108" H 2000 3000 50  0001 C CNN
+F 1 "+5V" V 2015 3278 50  0000 L CNN
+F 2 "" H 2000 3150 50  0001 C CNN
+F 3 "" H 2000 3150 50  0001 C CNN
+	1    2000 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0111
+U 1 1 5DF336FA
+P 2000 2200
+F 0 "#PWR0111" H 2000 2050 50  0001 C CNN
+F 1 "+12V" V 2015 2328 50  0000 L CNN
+F 2 "" H 2000 2200 50  0001 C CNN
+F 3 "" H 2000 2200 50  0001 C CNN
+	1    2000 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0112
+U 1 1 5DF33700
+P 2000 2100
+F 0 "#PWR0112" H 2000 1950 50  0001 C CNN
+F 1 "+12V" V 2015 2228 50  0000 L CNN
+F 2 "" H 2000 2100 50  0001 C CNN
+F 3 "" H 2000 2100 50  0001 C CNN
+	1    2000 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0113
+U 1 1 5DF33706
+P 2000 2000
+F 0 "#PWR0113" H 2000 1850 50  0001 C CNN
+F 1 "+12V" V 2015 2128 50  0000 L CNN
+F 2 "" H 2000 2000 50  0001 C CNN
+F 3 "" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0114
+U 1 1 5DF3388C
+P 2000 2300
+F 0 "#PWR0114" H 2000 2150 50  0001 C CNN
+F 1 "+12V" V 2015 2428 50  0000 L CNN
+F 2 "" H 2000 2300 50  0001 C CNN
+F 3 "" H 2000 2300 50  0001 C CNN
+	1    2000 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5DF3429C
+P 1500 3050
+F 0 "#PWR0115" H 1500 2800 50  0001 C CNN
+F 1 "GND" V 1505 2922 50  0000 R CNN
+F 2 "" H 1500 3050 50  0001 C CNN
+F 3 "" H 1500 3050 50  0001 C CNN
+	1    1500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5DF342A2
+P 1500 2850
+F 0 "#PWR0116" H 1500 2600 50  0001 C CNN
+F 1 "GND" V 1505 2722 50  0000 R CNN
+F 2 "" H 1500 2850 50  0001 C CNN
+F 3 "" H 1500 2850 50  0001 C CNN
+	1    1500 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5DF342A8
+P 1500 2950
+F 0 "#PWR0121" H 1500 2700 50  0001 C CNN
+F 1 "GND" V 1505 2822 50  0000 R CNN
+F 2 "" H 1500 2950 50  0001 C CNN
+F 3 "" H 1500 2950 50  0001 C CNN
+	1    1500 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5DF3470C
+P 1500 2200
+F 0 "#PWR0122" H 1500 1950 50  0001 C CNN
+F 1 "GND" V 1505 2072 50  0000 R CNN
+F 2 "" H 1500 2200 50  0001 C CNN
+F 3 "" H 1500 2200 50  0001 C CNN
+	1    1500 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5DF34712
+P 1500 2000
+F 0 "#PWR0123" H 1500 1750 50  0001 C CNN
+F 1 "GND" V 1505 1872 50  0000 R CNN
+F 2 "" H 1500 2000 50  0001 C CNN
+F 3 "" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5DF34718
+P 1500 2100
+F 0 "#PWR0124" H 1500 1850 50  0001 C CNN
+F 1 "GND" V 1505 1972 50  0000 R CNN
+F 2 "" H 1500 2100 50  0001 C CNN
+F 3 "" H 1500 2100 50  0001 C CNN
+	1    1500 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5DF3484B
+P 1500 2300
+F 0 "#PWR0125" H 1500 2050 50  0001 C CNN
+F 1 "GND" V 1505 2172 50  0000 R CNN
+F 2 "" H 1500 2300 50  0001 C CNN
+F 3 "" H 1500 2300 50  0001 C CNN
+	1    1500 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5DF3493F
+P 1500 3150
+F 0 "#PWR0126" H 1500 2900 50  0001 C CNN
+F 1 "GND" V 1505 3022 50  0000 R CNN
+F 2 "" H 1500 3150 50  0001 C CNN
+F 3 "" H 1500 3150 50  0001 C CNN
+	1    1500 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0105
+U 1 1 5DF394AD
+P 5150 1100
+F 0 "#PWR0105" H 5150 950 50  0001 C CNN
+F 1 "+12V" V 5165 1228 50  0000 L CNN
+F 2 "" H 5150 1100 50  0001 C CNN
+F 3 "" H 5150 1100 50  0001 C CNN
+	1    5150 1100
+	0    -1   -1   0   
+$EndComp
+>>>>>>> c72b17a5d7b5ed9fcabc01d086026c6393906d9b
 $EndSCHEMATC
