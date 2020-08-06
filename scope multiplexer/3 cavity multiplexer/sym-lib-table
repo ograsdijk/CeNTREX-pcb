@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name 113375410)(type Legacy)(uri ${KIPRJMOD}/parts/113375410.lib)(options "")(descr ""))
+  (lib (name ADG659)(type Legacy)(uri ${KIPRJMOD}/parts/ADG659.lib)(options "")(descr ""))
+  (lib (name ADG1056BRUZ)(type Legacy)(uri ${KIPRJMOD}/parts/ADG1056BRUZ.lib)(options "")(descr ""))
+  (lib (name ADG1334)(type Legacy)(uri ${KIPRJMOD}/parts/ADG1334.lib)(options "")(descr ""))
+)
