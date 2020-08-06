@@ -388,17 +388,6 @@ Text GLabel 3550 7050 2    50   Input ~ 0
 DIO3
 Text GLabel 3050 7150 2    50   Input ~ 0
 DIO4
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J6
-U 1 1 5EF98754
-P 1050 6650
-F 0 "J6" H 1100 7067 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 1100 6976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1050 6650 50  0001 C CNN
-F 3 "~" H 1050 6650 50  0001 C CNN
-	1    1050 6650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 6750 3050 6750
 $Comp
@@ -518,17 +507,6 @@ F 3 "" H 3550 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J7
-U 1 1 5EFA4674
-P 1050 7400
-F 0 "J7" H 1100 7817 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 1100 7726 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1050 7400 50  0001 C CNN
-F 3 "~" H 1050 7400 50  0001 C CNN
-	1    1050 7400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0130
 U 1 1 5EFA47D4
 P 850 6450
@@ -594,15 +572,15 @@ Text GLabel 1350 6750 2    50   Input ~ 0
 GND_3V3_3
 Text GLabel 1350 6850 2    50   Input ~ 0
 GND_3V3_4
-Text GLabel 1350 7200 2    50   Input ~ 0
+Text GLabel 1350 7600 2    50   Input ~ 0
 GND_3V3_0
-Text GLabel 1350 7300 2    50   Input ~ 0
+Text GLabel 1350 7500 2    50   Input ~ 0
 GND_3V3_1
 Text GLabel 1350 7400 2    50   Input ~ 0
 GND_3V3_2
-Text GLabel 1350 7500 2    50   Input ~ 0
+Text GLabel 1350 7300 2    50   Input ~ 0
 GND_3V3_3
-Text GLabel 1350 7600 2    50   Input ~ 0
+Text GLabel 1350 7200 2    50   Input ~ 0
 GND_3V3_4
 Text GLabel 1250 3450 0    50   Input ~ 0
 DIO0
@@ -679,5 +657,27 @@ F 2 "" H 6700 4150 50  0001 C CNN
 F 3 "" H 6700 4150 50  0001 C CNN
 	1    6700 4150
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J6
+U 1 1 5EF98754
+P 1050 6650
+F 0 "J6" H 1100 7067 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1100 6976 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1050 6650 50  0001 C CNN
+F 3 "~" H 1050 6650 50  0001 C CNN
+	1    1050 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J7
+U 1 1 5EFA4674
+P 1150 7400
+F 0 "J7" H 1200 6975 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1200 7066 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1150 7400 50  0001 C CNN
+F 3 "~" H 1150 7400 50  0001 C CNN
+	1    1150 7400
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
