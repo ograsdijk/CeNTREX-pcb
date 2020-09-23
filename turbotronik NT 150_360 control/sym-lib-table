@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name S3B-PH-K-S_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/parts/S3B-PH-K-S_LF__SN_.lib)(options "")(descr ""))
+  (lib (name G3VM-41GR5)(type Legacy)(uri ${KIPRJMOD}/parts/G3VM-41GR5.lib)(options "")(descr ""))
+  (lib (name CPC1117NTR)(type Legacy)(uri ${KIPRJMOD}/parts/CPC1117NTR.lib)(options "")(descr ""))
+  (lib (name EJ503A)(type Legacy)(uri ${KIPRJMOD}/parts/EJ503A.lib)(options "")(descr ""))
+  (lib (name 1825096-7)(type Legacy)(uri ${KIPRJMOD}/parts/1825096-7.lib)(options "")(descr ""))
+  (lib (name S4B-PH-K-SLFSN)(type Legacy)(uri ${KIPRJMOD}/parts/S4B-PH-K-SLFSN.lib)(options "")(descr ""))
+)
