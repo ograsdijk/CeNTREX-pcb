@@ -2,4 +2,5 @@
   (lib (name TLP170DF)(type Legacy)(uri ${KIPRJMOD}/parts/TLP170DF.lib)(options "")(descr ""))
   (lib (name 1-1337541-0)(type Legacy)(uri ${KIPRJMOD}/parts/1-1337541-0.lib)(options "")(descr ""))
   (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/parts/teensy.lib)(options "")(descr ""))
+  (lib (name ssr-cavity-multiplexer-rescue)(type Legacy)(uri "${KIPRJMOD}/ssr cavity multiplexer-rescue.lib")(options "")(descr ""))
 )
