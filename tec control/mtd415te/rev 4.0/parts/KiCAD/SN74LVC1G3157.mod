@@ -1,0 +1,293 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SOT23-6
+SC70-6
+SOT-6
+$EndINDEX
+$MODULE SOT23-6
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOT23-6
+Cd <b>SOT-23</b> - DBV<p>0.95 mm pitch
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.12724 -2.73566 0.801512 0.801512 0 0.05 N V 21 "SOT23-6"
+T1 0.127237 2.77372 0.641183 0.641183 0 0.05 N V 21 "VAL**"
+DS 1.4724 -0.8104 1.4724 0.8104 0.1778 21
+DS 1.4224 0.8104 -1.4224 0.8104 0.1778 27
+DS -1.4724 0.8104 -1.4724 -0.8104 0.1778 21
+DS -1.4224 -0.8104 1.4224 -0.8104 0.1778 27
+DC -0.9525 0.2675 -0.728 0.2675 0 21
+DP 0 0 0 0 4 0 27
+Dl -1.20174 0.85
+Dl -0.7 0.85
+Dl -0.7 1.50217
+Dl -1.20174 1.50217
+DP 0 0 0 0 4 0 27
+Dl -0.250005 0.85
+Dl 0.25 0.85
+Dl 0.25 1.50003
+Dl -0.250005 1.50003
+DP 0 0 0 0 4 0 27
+Dl 0.70045 0.85
+Dl 1.2 0.85
+Dl 1.2 1.50096
+Dl 0.70045 1.50096
+DP 0 0 0 0 4 0 27
+Dl 0.700115 -1.5
+Dl 1.2 -1.5
+Dl 1.2 -0.85014
+Dl 0.700115 -0.85014
+DP 0 0 0 0 4 0 27
+Dl -1.20158 -1.5
+Dl -0.7 -1.5
+Dl -0.7 -0.851116
+Dl -1.20158 -0.851116
+DP 0 0 0 0 4 0 27
+Dl -0.250363 -1.5
+Dl 0.25 -1.5
+Dl 0.25 -0.851235
+Dl -0.250363 -0.851235
+$PAD
+Sh "1" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.95 1.3001
+$EndPAD
+$PAD
+Sh "2" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 1.3001
+$EndPAD
+$PAD
+Sh "3" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.95 1.3001
+$EndPAD
+$PAD
+Sh "4" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.95 -1.3001
+$EndPAD
+$PAD
+Sh "6" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.95 -1.3001
+$EndPAD
+$PAD
+Sh "5" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -1.3001
+$EndPAD
+$EndMODULE SOT23-6
+$MODULE SC70-6
+Po 0 0 0 15 00000000 00000000 ~~
+Li SC70-6
+Cd <b>SC70</b> - DCK<p>0.65 mm pitch
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.76207 -1.93696 0.800071 0.800071 0 0.05 N V 21 "SC70-6"
+T1 0.762955 1.81837 0.640802 0.640802 0 0.05 N V 21 "VAL**"
+DS -1.1 -0.6 1.1 -0.6 0.2032 27
+DS 1.1 -0.6 1.1 0.6 0.2032 21
+DS 1.1 0.6 -1.1 0.6 0.2032 27
+DS -1.1 0.6 -1.1 -0.6 0.2032 21
+DC -0.65 0.25 -0.5 0.25 0 21
+DP 0 0 0 0 4 0 27
+Dl -0.800987 0.6
+Dl -0.5 0.6
+Dl -0.5 1.10136
+Dl -0.800987 1.10136
+DP 0 0 0 0 4 0 27
+Dl -0.150159 0.6
+Dl 0.15 0.6
+Dl 0.15 1.10117
+Dl -0.150159 1.10117
+DP 0 0 0 0 4 0 27
+Dl 0.500499 0.6
+Dl 0.8 0.6
+Dl 0.8 1.1011
+Dl 0.500499 1.1011
+DP 0 0 0 0 4 0 27
+Dl 0.500671 -1.1
+Dl 0.8 -1.1
+Dl 0.8 -0.600806
+Dl 0.500671 -0.600806
+DP 0 0 0 0 4 0 27
+Dl -0.150188 -1.1
+Dl 0.15 -1.1
+Dl 0.15 -0.600752
+Dl -0.150188 -0.600752
+DP 0 0 0 0 4 0 27
+Dl -0.801418 -1.1
+Dl -0.5 -1.1
+Dl -0.5 -0.601063
+Dl -0.801418 -0.601063
+$PAD
+Sh "1" R 0.4 0.6 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.65 0.95
+$EndPAD
+$PAD
+Sh "2" R 0.4 0.6 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 0.95
+$EndPAD
+$PAD
+Sh "3" R 0.4 0.6 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.65 0.95
+$EndPAD
+$PAD
+Sh "4" R 0.4 0.6 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.65 -0.95
+$EndPAD
+$PAD
+Sh "5" R 0.4 0.6 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -0.95
+$EndPAD
+$PAD
+Sh "6" R 0.4 0.6 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.65 -0.95
+$EndPAD
+$EndMODULE SC70-6
+$MODULE SOT-6
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOT-6
+Cd <b>SOT</b> - DRL<p>0.50 mm pitch
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.12702 -3.04867 0.800173 0.800173 0 0.05 N V 21 "SOT-6"
+T1 0.127238 2.77376 0.641193 0.641193 0 0.05 N V 21 "VAL**"
+DS 1.5 -0.65 1.5 0.65 0.1778 21
+DS 1.5 0.65 -1.5 0.65 0.1778 27
+DS -1.5 0.65 -1.5 -0.65 0.1778 21
+DS -1.5 -0.65 1.5 -0.65 0.1778 27
+DC -0.9525 0.2675 -0.728 0.2675 0 21
+DP 0 0 0 0 4 0 27
+Dl -0.250393 -1.65
+Dl 0.25 -1.65
+Dl 0.25 -0.676062
+Dl -0.250393 -0.676062
+DP 0 0 0 0 4 0 27
+Dl 0.25 1.65208
+Dl -0.250315 1.65208
+Dl -0.250315 0.675
+Dl 0.25 0.675
+DP 0 0 0 0 4 0 27
+Dl 0.751424 -1.65
+Dl 1.25 -1.65
+Dl 1.25 -0.676282
+Dl 0.751424 -0.676282
+DP 0 0 0 0 4 0 27
+Dl -1.25167 -1.65
+Dl -0.75 -1.65
+Dl -0.75 -0.6759
+Dl -1.25167 -0.6759
+DP 0 0 0 0 4 0 27
+Dl -0.75 1.65194
+Dl -1.25147 1.65194
+Dl -1.25147 0.675
+Dl -0.75 0.675
+DP 0 0 0 0 4 0 27
+Dl 1.25 1.65294
+Dl 0.751337 1.65294
+Dl 0.751337 0.675
+Dl 1.25 0.675
+$PAD
+Sh "1" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1 1.5
+$EndPAD
+$PAD
+Sh "2" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 1.5
+$EndPAD
+$PAD
+Sh "3" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1 1.5
+$EndPAD
+$PAD
+Sh "4" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1 -1.5
+$EndPAD
+$PAD
+Sh "6" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1 -1.5
+$EndPAD
+$PAD
+Sh "5" R 0.55 1.2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -1.5
+$EndPAD
+$EndMODULE SOT-6
