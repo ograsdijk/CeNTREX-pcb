@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name 2013978-1)(type Legacy)(uri ${KIPRJMOD}/parts/2013978-1.lib)(options "")(descr ""))
+  (lib (name PXIe5171-PFI-breakout-rescue)(type Legacy)(uri "${KIPRJMOD}/PXIe5171 PFI breakout-rescue.lib")(options "")(descr ""))
 )

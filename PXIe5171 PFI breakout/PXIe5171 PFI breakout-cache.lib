@@ -39,11 +39,11 @@ X SHIELD S4 -500 -1000 200 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_Coaxial
+# PXIe5171-PFI-breakout-rescue_Conn_Coaxial-Connector
 #
-DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
+DEF PXIe5171-PFI-breakout-rescue_Conn_Coaxial-Connector J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
+F1 "PXIe5171-PFI-breakout-rescue_Conn_Coaxial-Connector" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -64,11 +64,24 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole_Pad
+# PXIe5171-PFI-breakout-rescue_GND-power
 #
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+DEF PXIe5171-PFI-breakout-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "PXIe5171-PFI-breakout-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# PXIe5171-PFI-breakout-rescue_MountingHole_Pad-Mechanical
+#
+DEF PXIe5171-PFI-breakout-rescue_MountingHole_Pad-Mechanical H 0 40 N N 1 F N
 F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F1 "PXIe5171-PFI-breakout-rescue_MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -77,19 +90,6 @@ $ENDFPLIST
 DRAW
 C 0 50 50 0 1 50 N
 X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
