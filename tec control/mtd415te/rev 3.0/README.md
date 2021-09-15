@@ -21,6 +21,8 @@ Make sure to isolate the Teensy 4.0 from USB power by cutting the [5V USB trace 
 |9  |J11,J10          |DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm|2       |DB9_Female_MountingHoles|                |      |      |
 |10 |H4,H3,H2,H1      |MountingHole_3.2mm_M3_Pad_Via                                                              |4       |MountingHole_Pad        |                |      |      |
 
+Strictly speaking only the Teensy 4.0, pinheaders for the Teensy 4.0 and MTD415TE, decoupling capacitors, MPD_EJ503A power connector, DSUB-9 connector and 2x 1x06 pinheaders (for switching the TEC polarity) are required.  
+The resistors are not necessary, only required if you want to expand the DIO capability of the unit (for instance for adding an output that pulls high if a TEC channel is active). The microcontroller code would have to be modified as well. 
 
 ## Microcontroller code
 The Teensy code is on [GitHub](https://github.com/ograsdijk/microcontroller-codes/tree/master/CeNTREX_teensy_TEC_control), if not attaching a display make sure to change the main loop in `CeNTREX_teensy_TEC_control.ino` to the following 
