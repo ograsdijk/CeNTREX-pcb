@@ -2,7 +2,7 @@
 
 The PCB is designed to control 2 [Thorlabs MTD415TE](https://www.thorlabs.com/thorproduct.cfm?partnumber=MTD415TE) with a Teensy 4.0, with each MTD415T having a single Thorlabs compatible DB9 connector.
 
-The PCB slots into the [Minimet M5117115 enclosure](https://www.metcaseusa.com/en/Minimet/M5117115.html).
+The PCB slots into the [Minimet M5117115 enclosure](https://www.metcaseusa.com/en/Minimet/M5117115.htm).
 
 Make sure to isolate the Teensy 4.0 from USB power by cutting the [5V USB trace on the Teensy](https://www.pjrc.com/teensy/external_power.htmls).
 
