@@ -8,17 +8,17 @@ Make sure to isolate the Teensy 4.0 from USB power by cutting the [5V USB trace 
 
 ## BOM
 
-|Id |Designator       |Package                                                                                    |Quantity|Designation             |Supplier and ref|FIELD7|FIELD8|
-|---|-----------------|-------------------------------------------------------------------------------------------|--------|------------------------|----------------|------|------|
-|1  |J15,J12          |PinHeader_1x06_P2.54mm_Vertical                                                            |2       |Conn_01x06              |                |      |      |
-|2  |C2,C1            |C_0805_2012Metric                                                                          |2       |CP1_Small               |                |      |      |
-|3  |R2,R1,R8,R7,R6,R5|R_0805_2012Metric                                                                          |6       |PULLDOWN                |                |      |      |
-|4  |J9,J7,J5         |PinHeader_1x04_P2.54mm_Vertical                                                            |3       |Conn_01x04              |                |      |      |
-|5  |U1               |Teensy40                                                                                   |1       |Teensy4.0               |                |      |      |
-|6  |J14,J13,J1       |PinHeader_2x04_P2.54mm_Vertical                                                            |3       |Conn_02x04_Odd_Even     |                |      |      |
-|7  |J2               |MPD_EJ503A                                                                                 |1       |EJ503A                  |                |      |      |
-|8  |J8,J6,J4,J3      |PinHeader_1x08_P2.54mm_Vertical                                                            |4       |Conn_01x08              |                |      |      |
-|9  |J11,J10          |DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm|2       |DB9_Female_MountingHoles|                |      |      |
+|Id |Designator       |Package                                                                                    |Quantity|Designation             |Supplier and ref|Value|
+|---|-----------------|-------------------------------------------------------------------------------------------|--------|------------------------|----------------|------|
+|1  |J15,J12          |PinHeader_1x06_P2.54mm_Vertical                                                            |2       |Conn_01x06              |                |      |
+|2  |C2,C1            |C_0805_2012Metric                                                                          |2       |CP1_Small               | [Digikey](https://www.digikey.com/en/products/filter/ceramic-capacitors/60?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOcgJkpAF0CAHAFyhAGVWAnASwB2AcxABfAjQAMAFnrQQySOmz4ipcJIAEzAGKMW7SCACqAvqwDyKALI40WAK48cYggFoaCBVF4PVxSDIAVkZRMKA) |10 pF |
+|3  |R2,R1,R8,R7,R6,R5|R_0805_2012Metric                                                                          |6       |PULLDOWN                | [Digikey](https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOcgJkpAF0CAHAFyhAGVWAnASwB2AcxABfAjQAMADgCsCEGw4BVAX1YB5FAFkcaLAFceOEAQMcA1hoAWAWyymQtwRzAA6eQVtoAHq8liBAC0NArIkLwG%2BESkIPIMoolAA) |1.5kΩ to 10kΩ|
+|4  |J9,J7,J5         |PinHeader_1x04_P2.54mm_Vertical                                                            |3       |Conn_01x04              |                |      |
+|5  |U1               |Teensy40                                                                                   |1       |Teensy4.0               |                |      |
+|6  |J14,J13,J1       |PinHeader_2x04_P2.54mm_Vertical                                                            |3       |Conn_02x04_Odd_Even     |                |      |
+|7  |J2               |MPD_EJ503A                                                                                 |1       |EJ503A                  | [Digikey](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/EJ503A/5431753?s=N4IgTCBcDaIKICkCsAGAzAQRAXQL5A)               |      |
+|8  |J8,J6,J4,J3      |PinHeader_1x08_P2.54mm_Vertical                                                            |4       |Conn_01x08              |                |      |
+|9  |J11,J10          |DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm|2       |DB9_Female_MountingHoles| [Digikey](https://www.digikey.com/en/products/detail/amphenol-icc-fci/LD09S13A4GX00LF/4997291)               |      |
 
 Strictly speaking only the Teensy 4.0, pinheaders for the Teensy 4.0 and MTD415TE, decoupling capacitors, MPD_EJ503A power connector, DSUB-9 connector and 2x 1x06 pinheaders (for switching the TEC polarity) are required.  
 The resistors are not necessary, only required if you want to expand the DIO capability of the unit (for instance for adding an output that pulls high if a TEC channel is active). The microcontroller code would have to be modified as well. 
