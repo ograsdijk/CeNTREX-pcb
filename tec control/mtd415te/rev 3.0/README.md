@@ -1,10 +1,29 @@
 # CeNTREX TEC Control REV 3.0
 
-The PCB is designed to control 2 [Thorlabs MTD415TE](https://www.thorlabs.com/thorproduct.cfm?partnumber=MTD415TE) with a Teensy 4.0, with each MTD415T having a single Thorlabs compatible DB9 connector.
+![PCB Layout Render](figures/board_layout.png)
+![PCB Layout Render](figures/board_layout_render.png)
 
-The PCB slots into the [Minimet M5117115 enclosure](https://www.metcaseusa.com/en/Minimet/M5117115.htm).
 
+The PCB is designed to control 2 [Thorlabs MTD415TE](https://www.thorlabs.com/thorproduct.cfm?partnumber=MTD415TE) with a Teensy 4.0, with each MTD415T having a single Thorlabs compatible DB9 connector.  
+The PCB slots into the [Minimet M5117115 enclosure](https://www.metcaseusa.com/en/Minimet/M5117115.htm).  
 Make sure to isolate the Teensy 4.0 from USB power by cutting the [5V USB trace on the Teensy](https://www.pjrc.com/teensy/external_power.html).
+
+The pinheaders below directly above the DB-9 connectors serve to set the polarity with a jumper pin. Never connect T- and T+ to either A or B, always have A connector to one and B to the other.
+
+The DB-9 connector follows the Thorlabs TEC device convention:
+| Pin | Description | Connected (Y/N) |  
+| --- | --- | --- |
+| 1 | Status LED (+) | N |
+| 2 | Thermistor (+) | Y |
+| 3 | Thermistor (-,GND) | Y |
+| 4 | TEC (+) | Y |
+| 5 | TEC (-), Status LED (-) | Y |
+| 6 | NC | N |
+| 7 | Transducer AD 590/592 (-), LM 135/335 (+) | N |
+| 8 | LM 135/335 (-), GND | N |
+| 9 | Transducer AD 590/592 (+), LM 135/335 (+) | N |
+
+
 
 ## BOM
 
