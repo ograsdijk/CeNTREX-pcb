@@ -2,4 +2,5 @@
   (lib (name 2019-11-22_19-01-06)(type Legacy)(uri ${KIPRJMOD}/parts/2019-11-22_19-01-06.lib)(options "")(descr ""))
   (lib (name 2019-11-22_19-05-37)(type Legacy)(uri ${KIPRJMOD}/parts/2019-11-22_19-05-37.lib)(options "")(descr ""))
   (lib (name 2019-11-22_20-08-13)(type Legacy)(uri ${KIPRJMOD}/parts/2019-11-22_20-08-13.lib)(options "")(descr ""))
+  (lib (name NKT-Basik-single-ended-to-differential-modulation-rescue)(type Legacy)(uri "${KIPRJMOD}/NKT Basik single ended to differential modulation-rescue.lib")(options "")(descr ""))
 )

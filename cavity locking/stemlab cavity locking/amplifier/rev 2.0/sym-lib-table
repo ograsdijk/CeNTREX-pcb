@@ -2,4 +2,5 @@
   (lib (name ada4841)(type Legacy)(uri ${KIPRJMOD}/library/ada4841.lib)(options "")(descr ""))
   (lib (name lm4120)(type Legacy)(uri ${KIPRJMOD}/library/lm4120.lib)(options "")(descr ""))
   (lib (name lp2985)(type Legacy)(uri ${KIPRJMOD}/library/lp2985.lib)(options "")(descr ""))
+  (lib (name amplifier-rescue)(type Legacy)(uri ${KIPRJMOD}/amplifier-rescue.lib)(options "")(descr ""))
 )
